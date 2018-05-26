@@ -1,0 +1,5 @@
+#Ignore Datasheet Folder
+datasheets/
+
+#Ignore KiCAD Backup Files
+*.bak
