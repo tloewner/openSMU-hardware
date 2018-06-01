@@ -1,4 +1,4 @@
-update=Sun 27 May 2018 10:09:20 PM CEST
+update=Sun 27 May 2018 10:34:45 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=output_driver_additional_components
+[general]
+version=1
