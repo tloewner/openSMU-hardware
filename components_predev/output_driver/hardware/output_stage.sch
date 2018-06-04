@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -503,8 +503,6 @@ F 3 "" H 5250 1650 50  0000 C CNN
 $EndComp
 Text GLabel 5000 2400 2    60   Input ~ 0
 offset_adj
-Text GLabel 3950 2400 0    60   Input ~ 0
-drv_input
 Wire Wire Line
 	9150 1700 9450 1700
 Wire Wire Line
@@ -649,7 +647,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3150 5200 3150
 Wire Wire Line
-	3950 2400 4300 2400
+	1250 2400 4300 2400
 Connection ~ 4300 2400
 Wire Wire Line
 	9750 6300 9750 5800
@@ -772,4 +770,6 @@ F 3 "" H 10200 3650 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	10350 3650 10600 3650
+Text HLabel 1250 2400 0    60   Input ~ 0
+drv_input
 $EndSCHEMATC
