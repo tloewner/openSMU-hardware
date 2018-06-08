@@ -44,4 +44,78 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1650 1400 0    60   Input ~ 0
+v_supply
+$Comp
+L Ferrite_Bead L?
+U 1 1 5B19AAF9
+P 2100 1400
+F 0 "L?" V 1950 1425 50  0000 C CNN
+F 1 "Ferrite_Bead" V 2250 1400 50  0000 C CNN
+F 2 "" V 2030 1400 50  0000 C CNN
+F 3 "" H 2100 1400 50  0000 C CNN
+	1    2100 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 1400 1650 1400
+$Comp
+L +12V #PWR?
+U 1 1 5B19AB24
+P 3700 1300
+F 0 "#PWR?" H 3700 1150 50  0001 C CNN
+F 1 "+12V" H 3700 1440 50  0000 C CNN
+F 2 "" H 3700 1300 50  0000 C CNN
+F 3 "" H 3700 1300 50  0000 C CNN
+	1    3700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1300 3700 1500
+Wire Wire Line
+	3700 1400 2250 1400
+$Comp
+L CP1 C?
+U 1 1 5B19AB41
+P 3300 1650
+F 0 "C?" H 3325 1750 50  0000 L CNN
+F 1 "CP1" H 3325 1550 50  0000 L CNN
+F 2 "" H 3300 1650 50  0000 C CNN
+F 3 "" H 3300 1650 50  0000 C CNN
+	1    3300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B19AB84
+P 3700 1650
+F 0 "C?" H 3725 1750 50  0000 L CNN
+F 1 "C" H 3725 1550 50  0000 L CNN
+F 2 "" H 3738 1500 50  0000 C CNN
+F 3 "" H 3700 1650 50  0000 C CNN
+	1    3700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B19AB9F
+P 3700 2000
+F 0 "#PWR?" H 3700 1750 50  0001 C CNN
+F 1 "GND" H 3700 1850 50  0000 C CNN
+F 2 "" H 3700 2000 50  0000 C CNN
+F 3 "" H 3700 2000 50  0000 C CNN
+	1    3700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2000 3700 1800
+Wire Wire Line
+	3300 1800 3300 1950
+Wire Wire Line
+	3300 1950 3700 1950
+Connection ~ 3700 1950
+Wire Wire Line
+	3300 1500 3300 1400
+Connection ~ 3300 1400
+Connection ~ 3700 1400
 $EndSCHEMATC
