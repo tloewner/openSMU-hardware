@@ -324,7 +324,7 @@ L AD54xx U?
 U 1 1 5B2195BB
 P 2500 8650
 F 0 "U?" H 2600 8800 60  0000 C CNN
-F 1 "ADR5433" H 2700 8250 60  0000 C CNN
+F 1 "ADR4533" H 2700 8250 60  0000 C CNN
 F 2 "" H 2500 8650 60  0001 C CNN
 F 3 "" H 2500 8650 60  0001 C CNN
 	1    2500 8650
@@ -867,17 +867,6 @@ F 3 "" H 1550 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
-U 1 1 5B227F91
-P 0 5050
-F 0 "#PWR?" H 0   4800 50  0001 C CNN
-F 1 "GND" H 0   4900 50  0000 C CNN
-F 2 "" H 0   5050 50  0000 C CNN
-F 3 "" H 0   5050 50  0000 C CNN
-	1    0    5050
-	0    1    1    0   
-$EndComp
-$Comp
 L +5V #PWR?
 U 1 1 5B22994C
 P 2000 7000
@@ -1028,7 +1017,7 @@ Connection ~ 5500 8550
 Wire Wire Line
 	6550 9150 6700 9150
 Wire Wire Line
-	6600 9150 6600 8700
+	6600 8700 6600 9550
 Wire Wire Line
 	6600 8700 5750 8700
 Wire Wire Line
@@ -1291,4 +1280,17 @@ Wire Wire Line
 	2250 6500 1700 6500
 Wire Wire Line
 	2450 6500 3350 6500
+NoConn ~ 3050 5650
+NoConn ~ 2650 5650
+Text HLabel 6700 8300 2    60   Output ~ 0
+v_ref
+Wire Wire Line
+	6700 8300 6300 8300
+Wire Wire Line
+	6300 8300 6300 8550
+Connection ~ 6300 8550
+Text HLabel 6700 9550 2    60   Output ~ 0
+v_ref_2
+Wire Wire Line
+	6600 9550 6700 9550
 $EndSCHEMATC

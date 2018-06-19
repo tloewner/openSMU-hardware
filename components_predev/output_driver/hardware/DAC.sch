@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -44,4 +44,236 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MAX5318 U?
+U 1 1 5B296E71
+P 5150 3800
+F 0 "U?" H 5950 4550 60  0000 C CNN
+F 1 "MAX5318" H 5300 3800 60  0000 C CNN
+F 2 "" H 5150 3800 60  0001 C CNN
+F 3 "" H 5150 3800 60  0001 C CNN
+	1    5150 3800
+	1    0    0    -1  
+$EndComp
+Text HLabel 7300 3400 2    60   Input ~ 0
+v_ref
+Wire Wire Line
+	6350 3400 7300 3400
+$Comp
+L GND #PWR?
+U 1 1 5B299996
+P 4900 4950
+F 0 "#PWR?" H 4900 4700 50  0001 C CNN
+F 1 "GND" H 4900 4800 50  0000 C CNN
+F 2 "" H 4900 4950 50  0000 C CNN
+F 3 "" H 4900 4950 50  0000 C CNN
+	1    4900 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4950 4900 4750
+$Comp
+L R_Pack06 RN?
+U 1 1 5B2999B0
+P 3350 3400
+F 0 "RN?" V 2950 3400 50  0000 C CNN
+F 1 "R_Pack06" V 3650 3400 50  0000 C CNN
+F 2 "" V 3725 3400 50  0001 C CNN
+F 3 "" H 3350 3400 50  0000 C CNN
+	1    3350 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Pack06 RN?
+U 1 1 5B299A19
+P 3350 4300
+F 0 "RN?" V 2950 4300 50  0000 C CNN
+F 1 "R_Pack06" V 3650 4300 50  0000 C CNN
+F 2 "" V 3725 4300 50  0001 C CNN
+F 3 "" H 3350 4300 50  0000 C CNN
+	1    3350 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 2950 3950 3300
+Wire Wire Line
+	3950 3300 4250 3300
+Wire Wire Line
+	3900 3200 3900 3400
+Wire Wire Line
+	3900 3400 4250 3400
+Wire Wire Line
+	3850 3300 3850 3500
+Wire Wire Line
+	3850 3500 4250 3500
+Wire Wire Line
+	3800 3400 3800 3600
+Wire Wire Line
+	3800 3600 4250 3600
+Wire Wire Line
+	3750 3500 3750 3700
+Wire Wire Line
+	3750 3700 4250 3700
+Wire Wire Line
+	3700 3600 3700 3800
+Wire Wire Line
+	3700 3800 4250 3800
+Wire Wire Line
+	3700 3900 4250 3900
+Wire Wire Line
+	3550 4100 4250 4100
+Wire Wire Line
+	3550 4200 4250 4200
+Wire Wire Line
+	3550 4300 4250 4300
+Wire Wire Line
+	3550 4400 4250 4400
+Wire Wire Line
+	3700 3600 3550 3600
+Wire Wire Line
+	3550 3500 3750 3500
+Wire Wire Line
+	3550 3400 3800 3400
+Wire Wire Line
+	3550 3300 3850 3300
+Wire Wire Line
+	3550 3200 3900 3200
+Wire Wire Line
+	3550 3100 3950 3100
+Wire Wire Line
+	3550 4000 3700 4000
+Wire Wire Line
+	3700 4000 3700 3900
+NoConn ~ 3550 4500
+NoConn ~ 3150 4500
+Text HLabel 2000 3100 0    60   BiDi ~ 0
+~BUSY
+Wire Wire Line
+	2000 3100 3150 3100
+$Comp
+L R_Small R?
+U 1 1 5B29C829
+P 3950 2850
+F 0 "R?" H 3980 2870 50  0000 L CNN
+F 1 "2k" H 3980 2810 50  0000 L CNN
+F 2 "" H 3950 2850 50  0000 C CNN
+F 3 "" H 3950 2850 50  0000 C CNN
+	1    3950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2600 4900 2950
+Wire Wire Line
+	3100 2600 4900 2600
+Wire Wire Line
+	3950 2600 3950 2750
+Connection ~ 3950 3100
+$Comp
+L Jumper_NC_Dual JP?
+U 1 1 5B29C8D3
+P 2850 2600
+F 0 "JP?" H 2900 2500 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 2850 2700 50  0000 C BNN
+F 2 "" H 2850 2600 50  0000 C CNN
+F 3 "" H 2850 2600 50  0000 C CNN
+	1    2850 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 2600
+Wire Wire Line
+	3150 3200 2850 3200
+Wire Wire Line
+	2850 3200 2850 2700
+$Comp
+L GND #PWR?
+U 1 1 5B29C959
+P 2500 2800
+F 0 "#PWR?" H 2500 2550 50  0001 C CNN
+F 1 "GND" H 2500 2650 50  0000 C CNN
+F 2 "" H 2500 2800 50  0000 C CNN
+F 3 "" H 2500 2800 50  0000 C CNN
+	1    2500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Dual JP?
+U 1 1 5B29C9AC
+P 2850 2150
+F 0 "JP?" H 2900 2050 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 2850 2250 50  0000 C BNN
+F 2 "" H 2850 2150 50  0000 C CNN
+F 3 "" H 2850 2150 50  0000 C CNN
+	1    2850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3300 2300 3300
+Wire Wire Line
+	2300 3300 2300 2350
+Wire Wire Line
+	2300 2350 2850 2350
+Wire Wire Line
+	2850 2350 2850 2250
+Wire Wire Line
+	3100 2150 3350 2150
+Wire Wire Line
+	3350 2150 3350 2600
+Connection ~ 3350 2600
+Wire Wire Line
+	2500 2150 2500 2800
+Wire Wire Line
+	2500 2600 2600 2600
+Wire Wire Line
+	2500 2150 2600 2150
+Connection ~ 2500 2600
+Text HLabel 2000 3400 0    60   Input ~ 0
+PD
+Wire Wire Line
+	2000 3400 3150 3400
+Text HLabel 2000 3500 0    60   Input ~ 0
+~RST
+Wire Wire Line
+	2000 3500 3150 3500
+Text HLabel 2000 3600 0    60   Input ~ 0
+~LDAC
+Wire Wire Line
+	2000 3600 3150 3600
+Text HLabel 2000 4000 0    60   Output ~ 0
+~READY
+Wire Wire Line
+	2000 4000 3150 4000
+Text HLabel 2000 4100 0    60   Input ~ 0
+~CS
+Wire Wire Line
+	2000 4100 3150 4100
+Text HLabel 2000 4200 0    60   Input ~ 0
+SCLK
+Wire Wire Line
+	2000 4200 3150 4200
+Text HLabel 2000 4300 0    60   Input ~ 0
+DIN
+Wire Wire Line
+	2000 4300 3150 4300
+Text HLabel 2000 4400 0    60   Output ~ 0
+DOUT
+Wire Wire Line
+	2000 4400 3150 4400
+$Comp
+L R_Small R?
+U 1 1 5B29D046
+P 2600 3800
+F 0 "R?" H 2630 3820 50  0000 L CNN
+F 1 "R_Small" H 2630 3760 50  0000 L CNN
+F 2 "" H 2600 3800 50  0000 C CNN
+F 3 "" H 2600 3800 50  0000 C CNN
+	1    2600 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 3800 2300 3800
+Wire Wire Line
+	2300 3800 2300 4100
+Connection ~ 2300 4100
+Text HLabel 10500 3800 2    60   Output ~ 0
+output
 $EndSCHEMATC
