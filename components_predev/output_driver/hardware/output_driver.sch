@@ -202,6 +202,8 @@ F3 "VSS" I L 7000 1300 60
 F4 "output" O R 8100 1800 60 
 F5 "drv_input" I L 7000 1800 60 
 F6 "disengage" I L 7000 2400 60 
+F7 "v_ref_2" I L 7000 1950 60 
+F8 "temp" O L 7000 2250 60 
 $EndSheet
 $Comp
 L VDD #PWR?
@@ -833,4 +835,20 @@ Text GLabel 1500 3750 2    47   Output ~ 0
 pwr_enable
 Wire Wire Line
 	1500 3750 1100 3750
+Wire Wire Line
+	4650 4850 5200 4850
+Wire Wire Line
+	5200 4850 5200 1950
+Wire Wire Line
+	5200 1950 7000 1950
+Wire Wire Line
+	7000 2250 5300 2250
+Wire Wire Line
+	5300 2250 5300 2950
+Wire Wire Line
+	5300 2950 2900 2950
+Wire Wire Line
+	2900 2950 2900 2150
+Wire Wire Line
+	2900 2150 1100 2150
 $EndSCHEMATC

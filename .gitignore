@@ -3,3 +3,8 @@ datasheets/
 
 #Ignore KiCAD Backup Files
 *.bak
+
+#Ignore LTSpice Data/Log-Files
+*.log 
+*.raw 
+*.fft
