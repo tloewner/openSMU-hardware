@@ -513,4 +513,32 @@ Text HLabel 4050 3150 0    60   Input ~ 0
 pwr_enable
 Text HLabel 4050 5250 0    60   Input ~ 0
 pwr_enable
+$Comp
+L TEST_1P W?
+U 1 1 5B3AB7FE
+P 7500 2000
+F 0 "W?" H 7500 2270 50  0000 C CNN
+F 1 "TEST_1P" H 7500 2200 50  0000 C CNN
+F 2 "" H 7700 2000 50  0000 C CNN
+F 3 "" H 7700 2000 50  0000 C CNN
+	1    7500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W?
+U 1 1 5B3AB87D
+P 7500 4050
+F 0 "W?" H 7500 4320 50  0000 C CNN
+F 1 "TEST_1P" H 7500 4250 50  0000 C CNN
+F 2 "" H 7700 4050 50  0000 C CNN
+F 3 "" H 7700 4050 50  0000 C CNN
+	1    7500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4050 7500 4150
+Connection ~ 7500 4150
+Wire Wire Line
+	7500 2000 7500 2100
+Connection ~ 7500 2100
 $EndSCHEMATC
