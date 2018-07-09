@@ -35,9 +35,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
-Title ""
-Date ""
-Rev ""
+Title "Power Supplies"
+Date "2018-07-09"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""

@@ -1,6 +1,10 @@
-update=Mon 02 Jul 2018 03:26:37 PM CEST
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -56,6 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=output_driver_additional_components
-[general]
-version=1

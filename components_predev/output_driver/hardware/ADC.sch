@@ -35,9 +35,9 @@ EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 7 7
-Title ""
+Title "Analog-Digital Converter, Reference Voltage"
 Date ""
-Rev ""
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""

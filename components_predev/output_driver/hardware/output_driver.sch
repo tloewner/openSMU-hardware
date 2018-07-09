@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
-Title "openSMU - Output Driver PreDev v1"
+Title "openSMU - Frontend"
 Date "2018-05-24"
 Rev "1"
 Comp ""
