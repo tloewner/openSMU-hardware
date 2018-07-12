@@ -28,8 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:output_driver_additional_components
-LIBS:output_driver-cache
+LIBS:frontend_additional_components
+LIBS:frontend-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -44,4 +44,502 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1700 2300 0    60   Output ~ 0
+v_meas+
+Text HLabel 1700 2500 0    60   Output ~ 0
+v_meas-
+$Comp
+L ISL2863x U?
+U 1 1 5B438239
+P 2600 2400
+F 0 "U?" H 2300 1500 60  0000 C CNN
+F 1 "ISL2863x" H 2450 1650 60  0000 C CNN
+F 2 "" H 2600 2400 60  0001 C CNN
+F 3 "" H 2600 2400 60  0001 C CNN
+	1    2600 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2300 2100 2300
+Wire Wire Line
+	1700 2500 2100 2500
+$Comp
+L R_Small R?
+U 1 1 5B4382C5
+P 3350 2400
+F 0 "R?" H 3380 2420 50  0000 L CNN
+F 1 "R_Small" H 3380 2360 50  0000 L CNN
+F 2 "" H 3350 2400 50  0000 C CNN
+F 3 "" H 3350 2400 50  0000 C CNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B4382E0
+P 3600 2400
+F 0 "C?" H 3610 2470 50  0000 L CNN
+F 1 "C_Small" H 3610 2320 50  0000 L CNN
+F 2 "" H 3600 2400 50  0000 C CNN
+F 3 "" H 3600 2400 50  0000 C CNN
+	1    3600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B438323
+P 3800 2200
+F 0 "L?" H 3830 2240 50  0000 L CNN
+F 1 "L_Small" H 3830 2160 50  0000 L CNN
+F 2 "" H 3800 2200 50  0000 C CNN
+F 3 "" H 3800 2200 50  0000 C CNN
+	1    3800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B438390
+P 3800 2600
+F 0 "L?" H 3830 2640 50  0000 L CNN
+F 1 "L_Small" H 3830 2560 50  0000 L CNN
+F 2 "" H 3800 2600 50  0000 C CNN
+F 3 "" H 3800 2600 50  0000 C CNN
+	1    3800 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B43849C
+P 4000 2400
+F 0 "C?" H 4010 2470 50  0000 L CNN
+F 1 "C_Small" H 4010 2320 50  0000 L CNN
+F 2 "" H 4000 2400 50  0000 C CNN
+F 3 "" H 4000 2400 50  0000 C CNN
+	1    4000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4384A2
+P 4200 2200
+F 0 "L?" H 4230 2240 50  0000 L CNN
+F 1 "L_Small" H 4230 2160 50  0000 L CNN
+F 2 "" H 4200 2200 50  0000 C CNN
+F 3 "" H 4200 2200 50  0000 C CNN
+	1    4200 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4384A8
+P 4200 2600
+F 0 "L?" H 4230 2640 50  0000 L CNN
+F 1 "L_Small" H 4230 2560 50  0000 L CNN
+F 2 "" H 4200 2600 50  0000 C CNN
+F 3 "" H 4200 2600 50  0000 C CNN
+	1    4200 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B438592
+P 4400 2400
+F 0 "C?" H 4410 2470 50  0000 L CNN
+F 1 "C_Small" H 4410 2320 50  0000 L CNN
+F 2 "" H 4400 2400 50  0000 C CNN
+F 3 "" H 4400 2400 50  0000 C CNN
+	1    4400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B438598
+P 4600 2200
+F 0 "L?" H 4630 2240 50  0000 L CNN
+F 1 "L_Small" H 4630 2160 50  0000 L CNN
+F 2 "" H 4600 2200 50  0000 C CNN
+F 3 "" H 4600 2200 50  0000 C CNN
+	1    4600 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B43859E
+P 4600 2600
+F 0 "L?" H 4630 2640 50  0000 L CNN
+F 1 "L_Small" H 4630 2560 50  0000 L CNN
+F 2 "" H 4600 2600 50  0000 C CNN
+F 3 "" H 4600 2600 50  0000 C CNN
+	1    4600 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B4385A4
+P 4800 2400
+F 0 "C?" H 4810 2470 50  0000 L CNN
+F 1 "C_Small" H 4810 2320 50  0000 L CNN
+F 2 "" H 4800 2400 50  0000 C CNN
+F 3 "" H 4800 2400 50  0000 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4385AA
+P 5000 2200
+F 0 "L?" H 5030 2240 50  0000 L CNN
+F 1 "L_Small" H 5030 2160 50  0000 L CNN
+F 2 "" H 5000 2200 50  0000 C CNN
+F 3 "" H 5000 2200 50  0000 C CNN
+	1    5000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4385B0
+P 5000 2600
+F 0 "L?" H 5030 2640 50  0000 L CNN
+F 1 "L_Small" H 5030 2560 50  0000 L CNN
+F 2 "" H 5000 2600 50  0000 C CNN
+F 3 "" H 5000 2600 50  0000 C CNN
+	1    5000 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B4386BA
+P 5200 2400
+F 0 "C?" H 5210 2470 50  0000 L CNN
+F 1 "C_Small" H 5210 2320 50  0000 L CNN
+F 2 "" H 5200 2400 50  0000 C CNN
+F 3 "" H 5200 2400 50  0000 C CNN
+	1    5200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4386C0
+P 5400 2200
+F 0 "L?" H 5430 2240 50  0000 L CNN
+F 1 "L_Small" H 5430 2160 50  0000 L CNN
+F 2 "" H 5400 2200 50  0000 C CNN
+F 3 "" H 5400 2200 50  0000 C CNN
+	1    5400 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4386C6
+P 5400 2600
+F 0 "L?" H 5430 2640 50  0000 L CNN
+F 1 "L_Small" H 5430 2560 50  0000 L CNN
+F 2 "" H 5400 2600 50  0000 C CNN
+F 3 "" H 5400 2600 50  0000 C CNN
+	1    5400 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2300 3350 2300
+Wire Wire Line
+	3350 2300 3350 2200
+Wire Wire Line
+	3350 2200 3700 2200
+Wire Wire Line
+	3200 2500 3350 2500
+Wire Wire Line
+	3350 2500 3350 2600
+Wire Wire Line
+	3350 2600 3700 2600
+Wire Wire Line
+	3600 2500 3600 2600
+Connection ~ 3600 2600
+Wire Wire Line
+	3600 2300 3600 2200
+Connection ~ 3600 2200
+Wire Wire Line
+	3900 2200 4100 2200
+Wire Wire Line
+	3900 2600 4100 2600
+Wire Wire Line
+	4300 2600 4500 2600
+Wire Wire Line
+	4300 2200 4500 2200
+Wire Wire Line
+	4700 2200 4900 2200
+Wire Wire Line
+	5100 2200 5300 2200
+Wire Wire Line
+	4700 2600 4900 2600
+Wire Wire Line
+	5100 2600 5300 2600
+Wire Wire Line
+	4000 2200 4000 2300
+Connection ~ 4000 2200
+Wire Wire Line
+	4000 2500 4000 2600
+Connection ~ 4000 2600
+Wire Wire Line
+	4400 2500 4400 2600
+Connection ~ 4400 2600
+Wire Wire Line
+	4400 2300 4400 2200
+Connection ~ 4400 2200
+Wire Wire Line
+	4800 2300 4800 2200
+Connection ~ 4800 2200
+Wire Wire Line
+	4800 2500 4800 2600
+Connection ~ 4800 2600
+Wire Wire Line
+	5200 2500 5200 2600
+Connection ~ 5200 2600
+Wire Wire Line
+	5200 2300 5200 2200
+Connection ~ 5200 2200
+$Comp
+L ISL2863x U?
+U 1 1 5B4392D2
+P 2600 5550
+F 0 "U?" H 2300 4650 60  0000 C CNN
+F 1 "ISL2863x" H 2450 4800 60  0000 C CNN
+F 2 "" H 2600 5550 60  0001 C CNN
+F 3 "" H 2600 5550 60  0001 C CNN
+	1    2600 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5B4392D8
+P 3350 5550
+F 0 "R?" H 3380 5570 50  0000 L CNN
+F 1 "R_Small" H 3380 5510 50  0000 L CNN
+F 2 "" H 3350 5550 50  0000 C CNN
+F 3 "" H 3350 5550 50  0000 C CNN
+	1    3350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B4392DE
+P 3600 5550
+F 0 "C?" H 3610 5620 50  0000 L CNN
+F 1 "C_Small" H 3610 5470 50  0000 L CNN
+F 2 "" H 3600 5550 50  0000 C CNN
+F 3 "" H 3600 5550 50  0000 C CNN
+	1    3600 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4392E4
+P 3800 5350
+F 0 "L?" H 3830 5390 50  0000 L CNN
+F 1 "L_Small" H 3830 5310 50  0000 L CNN
+F 2 "" H 3800 5350 50  0000 C CNN
+F 3 "" H 3800 5350 50  0000 C CNN
+	1    3800 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4392EA
+P 3800 5750
+F 0 "L?" H 3830 5790 50  0000 L CNN
+F 1 "L_Small" H 3830 5710 50  0000 L CNN
+F 2 "" H 3800 5750 50  0000 C CNN
+F 3 "" H 3800 5750 50  0000 C CNN
+	1    3800 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B4392F0
+P 4000 5550
+F 0 "C?" H 4010 5620 50  0000 L CNN
+F 1 "C_Small" H 4010 5470 50  0000 L CNN
+F 2 "" H 4000 5550 50  0000 C CNN
+F 3 "" H 4000 5550 50  0000 C CNN
+	1    4000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4392F6
+P 4200 5350
+F 0 "L?" H 4230 5390 50  0000 L CNN
+F 1 "L_Small" H 4230 5310 50  0000 L CNN
+F 2 "" H 4200 5350 50  0000 C CNN
+F 3 "" H 4200 5350 50  0000 C CNN
+	1    4200 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B4392FC
+P 4200 5750
+F 0 "L?" H 4230 5790 50  0000 L CNN
+F 1 "L_Small" H 4230 5710 50  0000 L CNN
+F 2 "" H 4200 5750 50  0000 C CNN
+F 3 "" H 4200 5750 50  0000 C CNN
+	1    4200 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B439302
+P 4400 5550
+F 0 "C?" H 4410 5620 50  0000 L CNN
+F 1 "C_Small" H 4410 5470 50  0000 L CNN
+F 2 "" H 4400 5550 50  0000 C CNN
+F 3 "" H 4400 5550 50  0000 C CNN
+	1    4400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B439308
+P 4600 5350
+F 0 "L?" H 4630 5390 50  0000 L CNN
+F 1 "L_Small" H 4630 5310 50  0000 L CNN
+F 2 "" H 4600 5350 50  0000 C CNN
+F 3 "" H 4600 5350 50  0000 C CNN
+	1    4600 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B43930E
+P 4600 5750
+F 0 "L?" H 4630 5790 50  0000 L CNN
+F 1 "L_Small" H 4630 5710 50  0000 L CNN
+F 2 "" H 4600 5750 50  0000 C CNN
+F 3 "" H 4600 5750 50  0000 C CNN
+	1    4600 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B439314
+P 4800 5550
+F 0 "C?" H 4810 5620 50  0000 L CNN
+F 1 "C_Small" H 4810 5470 50  0000 L CNN
+F 2 "" H 4800 5550 50  0000 C CNN
+F 3 "" H 4800 5550 50  0000 C CNN
+	1    4800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B43931A
+P 5000 5350
+F 0 "L?" H 5030 5390 50  0000 L CNN
+F 1 "L_Small" H 5030 5310 50  0000 L CNN
+F 2 "" H 5000 5350 50  0000 C CNN
+F 3 "" H 5000 5350 50  0000 C CNN
+	1    5000 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B439320
+P 5000 5750
+F 0 "L?" H 5030 5790 50  0000 L CNN
+F 1 "L_Small" H 5030 5710 50  0000 L CNN
+F 2 "" H 5000 5750 50  0000 C CNN
+F 3 "" H 5000 5750 50  0000 C CNN
+	1    5000 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5B439326
+P 5200 5550
+F 0 "C?" H 5210 5620 50  0000 L CNN
+F 1 "C_Small" H 5210 5470 50  0000 L CNN
+F 2 "" H 5200 5550 50  0000 C CNN
+F 3 "" H 5200 5550 50  0000 C CNN
+	1    5200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B43932C
+P 5400 5350
+F 0 "L?" H 5430 5390 50  0000 L CNN
+F 1 "L_Small" H 5430 5310 50  0000 L CNN
+F 2 "" H 5400 5350 50  0000 C CNN
+F 3 "" H 5400 5350 50  0000 C CNN
+	1    5400 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 5B439332
+P 5400 5750
+F 0 "L?" H 5430 5790 50  0000 L CNN
+F 1 "L_Small" H 5430 5710 50  0000 L CNN
+F 2 "" H 5400 5750 50  0000 C CNN
+F 3 "" H 5400 5750 50  0000 C CNN
+	1    5400 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 5450 3350 5450
+Wire Wire Line
+	3350 5450 3350 5350
+Wire Wire Line
+	3350 5350 3700 5350
+Wire Wire Line
+	3200 5650 3350 5650
+Wire Wire Line
+	3350 5650 3350 5750
+Wire Wire Line
+	3350 5750 3700 5750
+Wire Wire Line
+	3600 5650 3600 5750
+Connection ~ 3600 5750
+Wire Wire Line
+	3600 5450 3600 5350
+Connection ~ 3600 5350
+Wire Wire Line
+	3900 5350 4100 5350
+Wire Wire Line
+	3900 5750 4100 5750
+Wire Wire Line
+	4300 5750 4500 5750
+Wire Wire Line
+	4300 5350 4500 5350
+Wire Wire Line
+	4700 5350 4900 5350
+Wire Wire Line
+	5100 5350 5300 5350
+Wire Wire Line
+	4700 5750 4900 5750
+Wire Wire Line
+	5100 5750 5300 5750
+Wire Wire Line
+	4000 5350 4000 5450
+Connection ~ 4000 5350
+Wire Wire Line
+	4000 5650 4000 5750
+Connection ~ 4000 5750
+Wire Wire Line
+	4400 5650 4400 5750
+Connection ~ 4400 5750
+Wire Wire Line
+	4400 5450 4400 5350
+Connection ~ 4400 5350
+Wire Wire Line
+	4800 5450 4800 5350
+Connection ~ 4800 5350
+Wire Wire Line
+	4800 5650 4800 5750
+Connection ~ 4800 5750
+Wire Wire Line
+	5200 5650 5200 5750
+Connection ~ 5200 5750
+Wire Wire Line
+	5200 5450 5200 5350
+Connection ~ 5200 5350
 $EndSCHEMATC

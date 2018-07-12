@@ -28,8 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:output_driver_additional_components
-LIBS:output_driver-cache
+LIBS:frontend_additional_components
+LIBS:frontend-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
