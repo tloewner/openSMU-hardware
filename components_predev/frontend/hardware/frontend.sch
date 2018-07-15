@@ -281,6 +281,7 @@ F14 "v_ext" I L 7000 5200 60
 F15 "v_range" I L 7000 5100 60 
 F16 "ocp" O L 7000 5600 60 
 F17 "i_range" I L 7000 5300 60 
+F18 "v_ref_2" I L 7000 4850 61 
 $EndSheet
 $Sheet
 S 3550 1000 1100 1650
@@ -772,7 +773,7 @@ pwr_enable
 Wire Wire Line
 	1500 3750 1100 3750
 Wire Wire Line
-	4650 4850 5200 4850
+	4650 4850 7000 4850
 Wire Wire Line
 	5200 4850 5200 1950
 Wire Wire Line
@@ -816,4 +817,5 @@ F 3 "" H 1700 4050 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1100 4050 1700 4050
+Connection ~ 5200 4850
 $EndSCHEMATC
