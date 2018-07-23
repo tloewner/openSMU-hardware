@@ -3,6 +3,7 @@ datasheets/
 
 #Ignore KiCAD Backup Files
 *.bak
+components_predev/frontend/hardware/rescue-backup
 
 #Ignore LTSpice Data/Log-Files
 *.log 

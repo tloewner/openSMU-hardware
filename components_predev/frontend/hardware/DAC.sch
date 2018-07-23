@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:frontend_additional_components
+EESchema Schematic File Version 4
 LIBS:frontend-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MAX5318 U601
+L frontend_additional_components:MAX5318 U601
 U 1 1 5B296E71
 P 5150 3800
 F 0 "U601" H 5950 4550 60  0000 C CNN
@@ -60,10 +30,10 @@ v_ref
 Wire Wire Line
 	6350 3400 7300 3400
 $Comp
-L GND #PWR0102
+L power:GND #PWR0103
 U 1 1 5B299996
 P 4900 4950
-F 0 "#PWR0102" H 4900 4700 50  0001 C CNN
+F 0 "#PWR0103" H 4900 4700 50  0001 C CNN
 F 1 "GND" H 4900 4800 50  0000 C CNN
 F 2 "" H 4900 4950 50  0000 C CNN
 F 3 "" H 4900 4950 50  0000 C CNN
@@ -73,7 +43,7 @@ $EndComp
 Wire Wire Line
 	4900 4950 4900 4750
 Wire Wire Line
-	3950 2950 3950 3300
+	3950 2950 3950 3100
 Wire Wire Line
 	3950 3300 4250 3300
 Wire Wire Line
@@ -115,12 +85,12 @@ NoConn ~ 2700 3600
 Text HLabel 2000 3100 0    60   BiDi ~ 0
 ~BUSY
 $Comp
-L R_Small R602
+L Device:R_Small R602
 U 1 1 5B29C829
 P 3950 2850
 F 0 "R602" H 3980 2870 50  0000 L CNN
 F 1 "2k" H 3980 2810 50  0000 L CNN
-F 2 "" H 3950 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 3950 2850 50  0001 C CNN
 F 3 "" H 3950 2850 50  0000 C CNN
 	1    3950 2850
 	1    0    0    -1  
@@ -128,17 +98,17 @@ $EndComp
 Wire Wire Line
 	4900 2600 4900 2950
 Wire Wire Line
-	3100 2600 4900 2600
+	3100 2600 3350 2600
 Wire Wire Line
 	3950 2600 3950 2750
 Connection ~ 3950 3100
 $Comp
-L Jumper_NC_Dual JP602
+L Device:Jumper_NC_Dual JP602
 U 1 1 5B29C8D3
 P 2850 2600
 F 0 "JP602" H 2900 2500 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 2850 2700 50  0000 C BNN
-F 2 "" H 2850 2600 50  0000 C CNN
+F 2 "" H 2850 2600 50  0001 C CNN
 F 3 "" H 2850 2600 50  0000 C CNN
 	1    2850 2600
 	1    0    0    -1  
@@ -147,10 +117,10 @@ Connection ~ 3950 2600
 Wire Wire Line
 	2850 3200 2850 2700
 $Comp
-L GND #PWR0103
+L power:GND #PWR0104
 U 1 1 5B29C959
 P 2500 2800
-F 0 "#PWR0103" H 2500 2550 50  0001 C CNN
+F 0 "#PWR0104" H 2500 2550 50  0001 C CNN
 F 1 "GND" H 2500 2650 50  0000 C CNN
 F 2 "" H 2500 2800 50  0000 C CNN
 F 3 "" H 2500 2800 50  0000 C CNN
@@ -158,12 +128,12 @@ F 3 "" H 2500 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Dual JP601
+L Device:Jumper_NC_Dual JP601
 U 1 1 5B29C9AC
 P 2850 2150
 F 0 "JP601" H 2900 2050 50  0000 L CNN
 F 1 "Jumper_NC_Dual" H 2850 2250 50  0000 C BNN
-F 2 "" H 2850 2150 50  0000 C CNN
+F 2 "" H 2850 2150 50  0001 C CNN
 F 3 "" H 2850 2150 50  0000 C CNN
 	1    2850 2150
 	1    0    0    -1  
@@ -180,7 +150,7 @@ Wire Wire Line
 	3350 2150 3350 2600
 Connection ~ 3350 2600
 Wire Wire Line
-	2500 2150 2500 2800
+	2500 2150 2500 2600
 Wire Wire Line
 	2500 2600 2600 2600
 Wire Wire Line
@@ -203,12 +173,12 @@ DIN
 Text HLabel 2000 4400 0    60   Output ~ 0
 DOUT
 $Comp
-L R_Small R601
+L Device:R_Small R601
 U 1 1 5B29D046
 P 2100 2700
 F 0 "R601" H 2130 2720 50  0000 L CNN
 F 1 "R_Small" H 2130 2660 50  0000 L CNN
-F 2 "" H 2100 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2100 2700 50  0001 C CNN
 F 3 "" H 2100 2700 50  0000 C CNN
 	1    2100 2700
 	-1   0    0    1   
@@ -216,7 +186,7 @@ $EndComp
 Text HLabel 10500 3800 2    60   Output ~ 0
 output
 $Comp
-L R_Pack04 RN602
+L Device:R_Pack04 RN602
 U 1 1 5B2A27DD
 P 3350 3300
 F 0 "RN602" V 3050 3300 50  0000 C CNN
@@ -227,7 +197,7 @@ F 3 "" H 3350 3300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Pack04 RN603
+L Device:R_Pack04 RN603
 U 1 1 5B2A2862
 P 3350 4300
 F 0 "RN603" V 3050 4300 50  0000 C CNN
@@ -238,7 +208,7 @@ F 3 "" H 3350 4300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Pack04 RN601
+L Device:R_Pack04 RN601
 U 1 1 5B2A28B9
 P 2900 3800
 F 0 "RN601" V 2600 3800 50  0000 C CNN
@@ -249,7 +219,7 @@ F 3 "" H 2900 3800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 3700 2700 3700
+	2000 3700 2100 3700
 Wire Wire Line
 	2700 3800 2000 3800
 Wire Wire Line
@@ -273,4 +243,14 @@ Wire Wire Line
 Wire Wire Line
 	2100 2800 2100 3700
 Connection ~ 2100 3700
+Wire Wire Line
+	3950 3100 3950 3300
+Wire Wire Line
+	3950 2600 4900 2600
+Wire Wire Line
+	3350 2600 3950 2600
+Wire Wire Line
+	2500 2600 2500 2800
+Wire Wire Line
+	2100 3700 2700 3700
 $EndSCHEMATC
