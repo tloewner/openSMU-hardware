@@ -131,7 +131,7 @@ U 1 1 5B0C1371
 P 9550 4100
 F 0 "K101" H 9300 4375 60  0000 C CNN
 F 1 "PE014005" H 9475 3825 60  0000 C CNN
-F 2 "" H 13350 5700 60  0001 C CNN
+F 2 "frontend_additional-footprints:PE014005" H 13350 5700 60  0001 C CNN
 F 3 "" H 13350 5700 60  0001 C CNN
 	1    9550 4100
 	0    -1   1    0   
@@ -147,21 +147,6 @@ F 3 "" H 10200 4450 50  0000 C CNN
 	1    10200 4450
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5200 5900 1100 1600
-U 5B0C28A9
-F0 "Inrush Current Limiter" 60
-F1 "inrush_limiter.sch" 60
-F2 "VIn+" I L 5200 6100 60 
-F3 "VIn-" I L 5200 6200 60 
-F4 "VDD" O R 6300 6100 60 
-F5 "VSS" O R 6300 6450 60 
-F6 "pwr_enable" I L 5200 7250 60 
-F7 "ip" O R 6300 6850 60 
-F8 "in" O R 6300 6950 60 
-F9 "vp" O R 6300 7150 60 
-F10 "vn" O R 6300 7250 60 
-$EndSheet
 $Sheet
 S 7000 1000 1100 1650
 U 5B0E9220
@@ -302,14 +287,6 @@ Text GLabel 8300 4850 2    47   Input ~ 0
 v_sense_ext+
 Text GLabel 8300 4600 2    47   Input ~ 0
 v_sense+
-Text GLabel 6450 6850 2    47   Output ~ 0
-ip
-Text GLabel 6450 6950 2    47   Output ~ 0
-in
-Text GLabel 6450 7150 2    47   Output ~ 0
-vp
-Text GLabel 6450 7250 2    47   Output ~ 0
-vn
 $Comp
 L power:PWR_FLAG #FLG010
 U 1 1 5B162008
@@ -517,12 +494,9 @@ Wire Wire Line
 	10500 5600 10350 5600
 Wire Wire Line
 	10500 5450 10500 5600
-Connection ~ 10500 5600
 Connection ~ 10500 5000
 Wire Wire Line
 	6300 6450 6450 6450
-Wire Wire Line
-	6300 6100 6450 6100
 Wire Wire Line
 	8100 1800 9700 1800
 Wire Wire Line
@@ -555,14 +529,6 @@ Wire Wire Line
 	8300 4850 8100 4850
 Wire Wire Line
 	8300 4950 8100 4950
-Wire Wire Line
-	6450 6850 6300 6850
-Wire Wire Line
-	6450 7250 6300 7250
-Wire Wire Line
-	6450 7150 6300 7150
-Wire Wire Line
-	6300 6950 6450 6950
 Wire Wire Line
 	4650 3600 7000 3600
 Wire Wire Line
@@ -610,10 +576,6 @@ Wire Wire Line
 	1100 6100 1550 6100
 Connection ~ 1550 6100
 Wire Wire Line
-	3250 6750 3250 6800
-Wire Wire Line
-	3250 6800 2900 6800
-Wire Wire Line
 	3850 6750 3850 7250
 Wire Wire Line
 	3850 7250 2900 7250
@@ -621,8 +583,6 @@ Wire Wire Line
 	2900 6950 3450 6950
 Wire Wire Line
 	3450 6950 3450 6750
-Wire Wire Line
-	3650 6750 3650 7100
 Wire Wire Line
 	3650 7100 2900 7100
 Wire Wire Line
@@ -639,10 +599,6 @@ Wire Wire Line
 	1500 3350 1100 3350
 Wire Wire Line
 	1500 3450 1100 3450
-Wire Wire Line
-	6600 5200 7000 5200
-Wire Wire Line
-	7000 5300 6600 5300
 Wire Wire Line
 	3550 4300 2100 4300
 Wire Wire Line
@@ -745,22 +701,10 @@ Wire Wire Line
 	2900 2950 2900 2150
 Wire Wire Line
 	2900 2150 1100 2150
-Text GLabel 1500 3850 2    47   Input ~ 0
-ip
-Text GLabel 1500 3950 2    47   Input ~ 0
-in
 Text GLabel 1500 4150 2    47   Input ~ 0
 vp
 Text GLabel 1500 4250 2    47   Input ~ 0
 vn
-Wire Wire Line
-	1500 3850 1100 3850
-Wire Wire Line
-	1500 3950 1100 3950
-Wire Wire Line
-	1500 4150 1100 4150
-Wire Wire Line
-	1500 4250 1100 4250
 $Comp
 L power:GND #PWR020
 U 1 1 5B39AD94
@@ -839,8 +783,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 5600 9400 5750
 Wire Wire Line
-	10500 5600 10500 5750
-Wire Wire Line
 	10500 5000 10500 5150
 Wire Wire Line
 	1950 6200 5200 6200
@@ -867,4 +809,68 @@ F 3 "~" H 7300 6850 50  0001 C CNN
 	1    7300 6850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6600 5200 7000 5200
+Wire Wire Line
+	7000 5300 6600 5300
+NoConn ~ 1100 4650
+NoConn ~ 1100 4550
+NoConn ~ 1100 4450
+NoConn ~ 1100 4350
+NoConn ~ 1100 3250
+NoConn ~ 1100 3150
+NoConn ~ 1100 2250
+NoConn ~ 1100 2050
+Wire Wire Line
+	1100 4150 1500 4150
+Wire Wire Line
+	1500 4250 1100 4250
+Wire Wire Line
+	6450 7150 6300 7150
+Wire Wire Line
+	6450 7250 6300 7250
+Text GLabel 6450 7250 2    47   Output ~ 0
+vn
+Text GLabel 6450 7150 2    47   Output ~ 0
+vp
+Wire Wire Line
+	6450 6100 6300 6100
+Wire Wire Line
+	10500 5600 10500 5750
+Connection ~ 10500 5600
+Wire Wire Line
+	3650 7100 3650 6750
+Wire Wire Line
+	2900 6800 3250 6800
+Wire Wire Line
+	3250 6750 3250 6800
+$Sheet
+S 5200 5900 1100 1600
+U 5B0C28A9
+F0 "Inrush Current Limiter" 60
+F1 "inrush_limiter.sch" 60
+F2 "VIn+" I L 5200 6100 60 
+F3 "VIn-" I L 5200 6200 60 
+F4 "VDD" O R 6300 6100 60 
+F5 "VSS" O R 6300 6450 60 
+F6 "pwr_enable" I L 5200 7250 60 
+F7 "vp" O R 6300 7150 60 
+F8 "vn" O R 6300 7250 60 
+$EndSheet
+NoConn ~ 1100 3850
+NoConn ~ 1100 3950
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5B7CB3A8
+P 9150 3600
+F 0 "#FLG0104" H 9150 3675 50  0001 C CNN
+F 1 "PWR_FLAG" H 9150 3773 50  0000 C CNN
+F 2 "" H 9150 3600 50  0001 C CNN
+F 3 "~" H 9150 3600 50  0001 C CNN
+	1    9150 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9150 3600 9150 3450
+Connection ~ 9150 3450
 $EndSCHEMATC

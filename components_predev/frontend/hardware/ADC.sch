@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title "Analog-Digital Converter, Reference Voltage"
 Date ""
 Rev "1"
@@ -32,12 +32,12 @@ $EndComp
 $Comp
 L power:GNDPWR #PWR0105
 U 1 1 5B1A5AC8
-P 3950 6600
-F 0 "#PWR0105" H 3950 6400 50  0001 C CNN
-F 1 "GNDPWR" H 3950 6470 50  0000 C CNN
-F 2 "" H 3950 6550 50  0000 C CNN
-F 3 "" H 3950 6550 50  0000 C CNN
-	1    3950 6600
+P 3950 6700
+F 0 "#PWR0105" H 3950 6500 50  0001 C CNN
+F 1 "GNDPWR" H 3950 6570 50  0000 C CNN
+F 2 "" H 3950 6650 50  0000 C CNN
+F 3 "" H 3950 6650 50  0000 C CNN
+	1    3950 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -337,22 +337,9 @@ F 7 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Text GLabel 6800 8550 2    60   Output ~ 0
-V_ref
+v_ref
 Text GLabel 6700 9150 2    60   Output ~ 0
 v_ref_2
-NoConn ~ 6200 8850
-NoConn ~ 6200 9450
-$Comp
-L Device:Voltage_Divider RN702
-U 1 1 5B21A366
-P 5500 9250
-F 0 "RN702" V 5325 9250 50  0000 C CNN
-F 1 "Voltage_Divider" V 5400 9250 50  0000 C CNN
-F 2 "" V 5975 9250 50  0001 C CNN
-F 3 "" H 5700 9250 50  0000 C CNN
-	1    5500 9250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5B21A3B3
@@ -409,7 +396,7 @@ F 3 "" H 5300 8250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6400 5250 2    60   Input ~ 0
-V_ref
+v_ref
 $Comp
 L Device:C_Small C709
 U 1 1 5B21CC61
@@ -868,7 +855,6 @@ Wire Wire Line
 	3950 6550 4050 6550
 Wire Wire Line
 	4250 6550 4250 6450
-Connection ~ 3950 6550
 Wire Wire Line
 	4150 6450 4150 6550
 Connection ~ 4150 6550
@@ -1000,8 +986,6 @@ Wire Wire Line
 Connection ~ 6600 9150
 Wire Wire Line
 	5500 9500 5500 9550
-Wire Wire Line
-	5950 9250 5650 9250
 Wire Wire Line
 	4850 8050 4850 8150
 Wire Wire Line
@@ -1142,8 +1126,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 1850 5150 1650
 Connection ~ 5250 1850
-Wire Wire Line
-	6800 1300 6950 1300
 Wire Wire Line
 	4950 1150 4950 1300
 Wire Wire Line
@@ -1431,13 +1413,6 @@ Wire Wire Line
 	5500 1450 5500 1300
 Connection ~ 5500 1300
 Wire Wire Line
-	6800 1450 6950 1450
-Wire Wire Line
-	6950 1450 6950 1300
-Connection ~ 6950 1300
-Wire Wire Line
-	3950 6550 3950 6600
-Wire Wire Line
 	4150 6550 4250 6550
 Wire Wire Line
 	4050 6550 4150 6550
@@ -1559,8 +1534,6 @@ Wire Wire Line
 	5800 1450 5900 1450
 Wire Wire Line
 	5500 1300 5900 1300
-Wire Wire Line
-	6950 1300 7250 1300
 $Comp
 L Device:R_Pack04 RN701
 U 1 1 5B67A8F4
@@ -1615,4 +1588,99 @@ Wire Wire Line
 	3500 4850 3500 4950
 Wire Wire Line
 	3500 4950 3550 4950
+$Comp
+L Device:R_Small R708
+U 1 1 5B57E285
+P 5500 9100
+F 0 "R708" H 5559 9146 50  0000 L CNN
+F 1 "R_Small" H 5559 9055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 9100 50  0001 C CNN
+F 3 "~" H 5500 9100 50  0001 C CNN
+	1    5500 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R709
+U 1 1 5B57E353
+P 5500 9400
+F 0 "R709" H 5559 9446 50  0000 L CNN
+F 1 "R_Small" H 5559 9355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 9400 50  0001 C CNN
+F 3 "~" H 5500 9400 50  0001 C CNN
+	1    5500 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 9200 5500 9250
+Wire Wire Line
+	5500 9250 5950 9250
+Connection ~ 5500 9250
+Wire Wire Line
+	5500 9250 5500 9300
+Wire Wire Line
+	6800 1300 7000 1300
+Wire Wire Line
+	6800 1450 7000 1450
+Wire Wire Line
+	7000 1450 7000 1300
+Connection ~ 7000 1300
+Wire Wire Line
+	7000 1300 7250 1300
+Wire Wire Line
+	3950 6700 3950 6550
+Connection ~ 3950 6550
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5B7AAEF0
+P 1850 8500
+F 0 "#FLG0103" H 1850 8575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1850 8674 50  0000 C CNN
+F 2 "" H 1850 8500 50  0001 C CNN
+F 3 "~" H 1850 8500 50  0001 C CNN
+	1    1850 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 8500 1850 8650
+$Comp
+L power:+5V #PWR0146
+U 1 1 5B70BEE8
+P 6100 8800
+F 0 "#PWR0146" H 6100 8650 50  0001 C CNN
+F 1 "+5V" H 6100 8940 50  0000 C CNN
+F 2 "" H 6100 8800 50  0000 C CNN
+F 3 "" H 6100 8800 50  0000 C CNN
+	1    6100 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0147
+U 1 1 5B70BF61
+P 6200 9600
+F 0 "#PWR0147" H 6200 9350 50  0001 C CNN
+F 1 "GND" H 6200 9450 50  0000 C CNN
+F 2 "" H 6200 9600 50  0000 C CNN
+F 3 "" H 6200 9600 50  0000 C CNN
+	1    6200 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 8800 6200 8800
+Wire Wire Line
+	6200 8800 6200 8850
+Wire Wire Line
+	6200 9600 6200 9450
+$Comp
+L power:PWR_FLAG #FLG0601
+U 1 1 5B72FF50
+P 3750 3400
+F 0 "#FLG0601" H 3750 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3750 3574 50  0000 C CNN
+F 2 "" H 3750 3400 50  0001 C CNN
+F 3 "~" H 3750 3400 50  0001 C CNN
+	1    3750 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3400 3750 3550
 $EndSCHEMATC
