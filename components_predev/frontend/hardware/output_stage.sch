@@ -59,7 +59,7 @@ U 1 1 5B0EA1B5
 P 8300 3300
 F 0 "R316" V 8380 3300 50  0000 C CNN
 F 1 "200m" V 8300 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 8230 3300 50  0001 C CNN
 F 3 "" H 8300 3300 50  0000 C CNN
 	1    8300 3300
 	1    0    0    -1  
@@ -84,7 +84,7 @@ U 1 1 5B0EA1CE
 P 8300 3900
 F 0 "R317" V 8380 3900 50  0000 C CNN
 F 1 "200m" V 8300 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 8230 3900 50  0001 C CNN
 F 3 "" H 8300 3900 50  0000 C CNN
 	1    8300 3900
 	1    0    0    -1  
@@ -308,8 +308,6 @@ Connection ~ 8300 4750
 Wire Wire Line
 	7700 5550 8000 5550
 Wire Wire Line
-	6000 6250 6650 6250
-Wire Wire Line
 	7350 4600 7900 4600
 Connection ~ 8300 950 
 Wire Wire Line
@@ -340,17 +338,10 @@ Wire Wire Line
 Connection ~ 6000 2850
 Wire Wire Line
 	5600 2350 6000 2350
-Wire Wire Line
-	8300 6250 8300 5750
-Wire Wire Line
-	6650 6050 6650 6250
-Connection ~ 6650 6250
 Text HLabel 10650 3600 2    60   Output ~ 0
 output
 Text HLabel 1000 1050 0    60   Input ~ 0
 VDD
-Text HLabel 1000 1250 0    60   Input ~ 0
-VSS
 $Comp
 L power:VDD #PWR028
 U 1 1 5B0ED212
@@ -373,8 +364,6 @@ F 3 "" H 1300 1250 50  0000 C CNN
 	1    1300 1250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1300 1250 1000 1250
 Wire Wire Line
 	1300 1050 1000 1050
 $Comp
@@ -434,9 +423,6 @@ Wire Wire Line
 	7700 4950 7700 4750
 Wire Wire Line
 	7700 5350 7700 5550
-Wire Wire Line
-	7700 6050 7700 6250
-Connection ~ 7700 6250
 Connection ~ 7700 5550
 $Comp
 L power:GNDPWR #PWR030
@@ -583,20 +569,6 @@ Wire Wire Line
 Text HLabel 9150 4950 0    60   Input ~ 0
 disengage
 Connection ~ 9550 4950
-$Comp
-L frontend_additional_components:LTC6090 U301
-U 1 1 5B33A3B5
-P 2550 3800
-F 0 "U301" H 3200 4100 60  0000 C CNN
-F 1 "LTC6090-5" H 3350 4000 60  0000 C CNN
-F 2 "Package_SO:TI_SO-PowerPAD-8" H 2550 3800 60  0001 C CNN
-F 3 "" H 2550 3800 60  0001 C CNN
-F 4 "LTC6090IS8E-5#PBF-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "LTC6090IS8E-5#PBF" H 0   0   50  0001 C CNN "Part Number"
-	1    2550 3800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R304
 U 1 1 5B33D296
@@ -766,53 +738,6 @@ Wire Wire Line
 	3500 1200 4000 1200
 Wire Wire Line
 	3500 1200 3500 1400
-$Comp
-L power:VSS #PWR038
-U 1 1 5B33EF8A
-P 3500 2550
-F 0 "#PWR038" H 3500 2400 50  0001 C CNN
-F 1 "VSS" H 3500 2700 50  0000 C CNN
-F 2 "" H 3500 2550 50  0000 C CNN
-F 3 "" H 3500 2550 50  0000 C CNN
-	1    3500 2550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3500 2300 3500 2450
-$Comp
-L Device:C_Small C302
-U 1 1 5B33F140
-P 3750 2450
-F 0 "C302" H 3760 2520 50  0000 L CNN
-F 1 "100n" H 3760 2370 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3750 2450 50  0001 C CNN
-F 3 "" H 3750 2450 50  0000 C CNN
-F 4 "Samsung" H 3750 2450 60  0001 C CNN "Manufacturer"
-F 5 "1276-3084-1-ND" H 3750 2450 60  0001 C CNN "Digikey"
-F 6 "CL31B104KEHSNNE" H 3750 2450 60  0001 C CNN "Part Number"
-F 7 "250 V" H 3750 2450 60  0001 C CNN "Voltage"
-F 8 "X7R" H 3750 2450 60  0001 C CNN "Dielectric"
-	1    3750 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR039
-U 1 1 5B33F1B7
-P 4000 2550
-F 0 "#PWR039" H 4000 2300 50  0001 C CNN
-F 1 "GND" H 4000 2400 50  0000 C CNN
-F 2 "" H 4000 2550 50  0000 C CNN
-F 3 "" H 4000 2550 50  0000 C CNN
-	1    4000 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 2550 4000 2450
-Wire Wire Line
-	4000 2450 3850 2450
-Wire Wire Line
-	3650 2450 3600 2450
-Connection ~ 3500 2450
 Wire Wire Line
 	4000 1200 4000 1300
 $Comp
@@ -829,8 +754,6 @@ $EndComp
 Wire Wire Line
 	4850 2000 4850 1650
 Connection ~ 4400 2000
-Wire Wire Line
-	4850 1100 4850 1350
 $Comp
 L power:VSS #PWR040
 U 1 1 5B340542
@@ -1073,15 +996,11 @@ Wire Wire Line
 Wire Wire Line
 	6000 2850 6650 2850
 Wire Wire Line
-	6650 6250 7700 6250
-Wire Wire Line
 	7350 2550 7350 2900
 Wire Wire Line
 	7350 5150 7400 5150
 Wire Wire Line
 	7350 4600 7350 5150
-Wire Wire Line
-	7700 6250 8300 6250
 Wire Wire Line
 	7700 5550 7700 5750
 Wire Wire Line
@@ -1103,8 +1022,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 4750 4100 5600
 Wire Wire Line
-	3500 2450 3500 2550
-Wire Wire Line
 	4400 2000 4850 2000
 Wire Wire Line
 	2300 3650 2350 3650
@@ -1120,39 +1037,6 @@ Wire Wire Line
 	6650 2050 6650 2850
 Wire Wire Line
 	7600 3750 7600 3600
-$Comp
-L frontend_additional_components:LTC6090 U302
-U 1 1 5B798560
-P 3750 1850
-F 0 "U302" H 4400 2150 60  0000 C CNN
-F 1 "LTC6090-5" H 4550 2050 60  0000 C CNN
-F 2 "Package_SO:TI_SO-PowerPAD-8" H 3750 1850 60  0001 C CNN
-F 3 "" H 3750 1850 60  0001 C CNN
-F 4 "LTC6090IS8E-5#PBF-ND" H 1200 -1950 50  0001 C CNN "Digikey"
-F 5 "Linear Technology" H 1200 -1950 50  0001 C CNN "Manufacturer"
-F 6 "LTC6090IS8E-5#PBF" H 1200 -1950 50  0001 C CNN "Part Number"
-	1    3750 1850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 2350 3600 2450
-Connection ~ 3600 2450
-Wire Wire Line
-	3600 2450 3500 2450
-$Comp
-L frontend_additional_components:LTC6090 U303
-U 1 1 5B7A1262
-P 3750 5750
-F 0 "U303" H 4400 6050 60  0000 C CNN
-F 1 "LTC6090-5" H 4550 5950 60  0000 C CNN
-F 2 "Package_SO:TI_SO-PowerPAD-8" H 3750 5750 60  0001 C CNN
-F 3 "" H 3750 5750 60  0001 C CNN
-F 4 "LTC6090IS8E-5#PBF-ND" H 1200 1950 50  0001 C CNN "Digikey"
-F 5 "Linear Technology" H 1200 1950 50  0001 C CNN "Manufacturer"
-F 6 "LTC6090IS8E-5#PBF" H 1200 1950 50  0001 C CNN "Part Number"
-	1    3750 5750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3600 6250 3600 6300
 Wire Wire Line
@@ -1175,7 +1059,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1850 2050 2900
 Wire Wire Line
-	2050 4500 2800 4500
+	2050 4500 2700 4500
 Wire Wire Line
 	2800 4500 2800 4250
 Connection ~ 2050 1850
@@ -1184,4 +1068,110 @@ Wire Wire Line
 Connection ~ 2050 2900
 Wire Wire Line
 	2050 2900 2050 4500
+Wire Wire Line
+	4850 1350 4850 1100
+Text HLabel 1000 1250 0    61   Input ~ 0
+VSS
+Wire Wire Line
+	1000 1250 1300 1250
+Wire Wire Line
+	6000 6250 6650 6250
+Wire Wire Line
+	8300 6250 8300 5750
+Wire Wire Line
+	7700 6050 7700 6250
+Connection ~ 7700 6250
+Wire Wire Line
+	7700 6250 8300 6250
+Wire Wire Line
+	6650 6050 6650 6250
+Connection ~ 6650 6250
+Wire Wire Line
+	6650 6250 7700 6250
+Wire Wire Line
+	3500 2300 3500 2500
+Wire Wire Line
+	3500 2500 3600 2500
+$Comp
+L frontend_additional_components:LTC6090 U301
+U 1 1 5B66E4A3
+P 2550 3800
+F 0 "U301" H 3641 3828 60  0000 L CNN
+F 1 "LTC6090" H 3641 3722 60  0000 L CNN
+F 2 "Package_SO:TI_SO-PowerPAD-8" H 2550 3800 60  0001 C CNN
+F 3 "" H 2550 3800 60  0001 C CNN
+	1    2550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L frontend_additional_components:LTC6090 U303
+U 1 1 5B66E5AE
+P 3750 5750
+F 0 "U303" H 4175 6400 60  0000 C CNN
+F 1 "LTC6090" H 4175 6294 60  0000 C CNN
+F 2 "Package_SO:TI_SO-PowerPAD-8" H 3750 5750 60  0001 C CNN
+F 3 "" H 3750 5750 60  0001 C CNN
+	1    3750 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L frontend_additional_components:LTC6090 U302
+U 1 1 5B66E723
+P 3750 1850
+F 0 "U302" H 4175 2500 60  0000 C CNN
+F 1 "LTC6090" H 4175 2394 60  0000 C CNN
+F 2 "Package_SO:TI_SO-PowerPAD-8" H 3750 1850 60  0001 C CNN
+F 3 "" H 3750 1850 60  0001 C CNN
+	1    3750 1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2500 3600 2350
+Wire Wire Line
+	2700 4300 2700 4500
+Connection ~ 2700 4500
+Wire Wire Line
+	2700 4500 2800 4500
+$Comp
+L Device:C_Small C300
+U 1 1 5B67FD08
+P 3850 2500
+F 0 "C300" V 3621 2500 50  0000 C CNN
+F 1 "C_Small" V 3712 2500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3850 2500 50  0001 C CNN
+F 3 "~" H 3850 2500 50  0001 C CNN
+	1    3850 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2500 3600 2500
+Connection ~ 3600 2500
+$Comp
+L power:GND #PWR0201
+U 1 1 5B688506
+P 4050 2600
+F 0 "#PWR0201" H 4050 2350 50  0001 C CNN
+F 1 "GND" H 4055 2427 50  0000 C CNN
+F 2 "" H 4050 2600 50  0001 C CNN
+F 3 "" H 4050 2600 50  0001 C CNN
+	1    4050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2600 4050 2500
+Wire Wire Line
+	4050 2500 3950 2500
+$Comp
+L power:VSS #PWR0149
+U 1 1 5B6A0B8C
+P 3600 2650
+F 0 "#PWR0149" H 3600 2500 50  0001 C CNN
+F 1 "VSS" H 3600 2800 50  0000 C CNN
+F 2 "" H 3600 2650 50  0000 C CNN
+F 3 "" H 3600 2650 50  0000 C CNN
+	1    3600 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2650 3600 2500
 $EndSCHEMATC

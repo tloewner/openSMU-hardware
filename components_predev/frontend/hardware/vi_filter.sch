@@ -1822,10 +1822,6 @@ F 3 "" H 3550 4000 50  0000 C CNN
 	1    3550 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 4000 3550 3850
-Wire Wire Line
-	3550 3850 3700 3850
 $Comp
 L +3.3V #PWR0102
 U 1 1 5B4E9A15
@@ -2029,4 +2025,8 @@ F 3 "" H 4100 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 4500 4100 4350
+Wire Wire Line
+	3550 4000 3550 3850
+Wire Wire Line
+	3550 3850 3700 3850
 $EndSCHEMATC

@@ -908,9 +908,6 @@ Wire Wire Line
 	2000 7050 2000 7150
 Connection ~ 2000 7150
 Wire Wire Line
-	1800 7150 1800 7250
-Connection ~ 1800 7150
-Wire Wire Line
 	1200 6850 1200 6650
 Wire Wire Line
 	1600 6850 1600 6650
@@ -1645,11 +1642,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 2850 1200 3150
 Wire Wire Line
-	1600 7150 1800 7150
-Wire Wire Line
 	2000 7150 2400 7150
-Wire Wire Line
-	1800 7150 2000 7150
 Wire Wire Line
 	8350 3700 8500 3700
 Wire Wire Line
@@ -1791,4 +1784,11 @@ Wire Wire Line
 	9950 1450 9900 1450
 Wire Wire Line
 	9900 1450 9900 1300
+Wire Wire Line
+	1600 7150 1800 7150
+Wire Wire Line
+	1800 7250 1800 7150
+Connection ~ 1800 7150
+Wire Wire Line
+	1800 7150 2000 7150
 $EndSCHEMATC

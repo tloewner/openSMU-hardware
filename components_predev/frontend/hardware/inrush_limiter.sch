@@ -43,20 +43,6 @@ F 6 "UVR2C101MHD" H 5750 2350 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C205
-U 1 1 5B0C3B50
-P 6050 2350
-F 0 "C205" H 6075 2450 50  0000 L CNN
-F 1 "100u" H 6075 2250 50  0000 L CNN
-F 2 "frontend_additional-footprints:UVR2C101MHD" H 6050 2350 50  0001 C CNN
-F 3 "" H 6050 2350 50  0000 C CNN
-F 4 "Nichicon" H 6050 2350 60  0001 C CNN "Manufacturer"
-F 5 "493-1165-ND" H 6050 2350 60  0001 C CNN "Digikey"
-F 6 "UVR2C101MHD" H 6050 2350 60  0001 C CNN "Part Number"
-	1    6050 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C202
 U 1 1 5B0C3B5A
 P 5450 4400
@@ -85,20 +71,6 @@ F 6 "UVR2C101MHD" H 5750 4400 60  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP1 C206
-U 1 1 5B0C3B6E
-P 6050 4400
-F 0 "C206" H 6075 4500 50  0000 L CNN
-F 1 "100u" H 6075 4300 50  0000 L CNN
-F 2 "frontend_additional-footprints:UVR2C101MHD" H 6050 4400 50  0001 C CNN
-F 3 "" H 6050 4400 50  0000 C CNN
-F 4 "Nichicon" H 6050 4400 60  0001 C CNN "Manufacturer"
-F 5 "493-1165-ND" H 6050 4400 60  0001 C CNN "Digikey"
-F 6 "UVR2C101MHD" H 6050 4400 60  0001 C CNN "Part Number"
-	1    6050 4400
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:Q_PMOS_DGS Q201
 U 1 1 5B0C3B78
 P 4100 2200
@@ -115,9 +87,6 @@ F 7 "512-FDMS86263P" H 4100 2200 60  0001 C CNN "Mouser"
 $EndComp
 Wire Wire Line
 	5750 2200 5750 2100
-Connection ~ 6050 2100
-Wire Wire Line
-	6050 2200 6050 2100
 $Comp
 L Device:D_Zener D201
 U 1 1 5B0C3B82
@@ -199,17 +168,11 @@ Wire Wire Line
 	5450 2500 5450 2750
 Wire Wire Line
 	5450 2750 5750 2750
-Wire Wire Line
-	6050 2750 6050 2500
 Connection ~ 5450 2750
 Wire Wire Line
 	5750 2500 5750 2750
-Connection ~ 5750 2750
-Wire Wire Line
-	6050 4150 6050 4250
 Wire Wire Line
 	5750 4150 5750 4250
-Connection ~ 6050 4150
 Connection ~ 5750 4150
 $Comp
 L Device:Q_NMOS_DGS Q202
@@ -305,10 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 4800 5750 4800
 Wire Wire Line
-	6050 4800 6050 4550
-Wire Wire Line
 	5750 4550 5750 4800
-Connection ~ 5750 4800
 $Comp
 L power:GNDPWR #PWR025
 U 1 1 5B0C3C0A
@@ -517,19 +477,11 @@ Wire Wire Line
 Wire Wire Line
 	4100 2750 4250 2750
 Wire Wire Line
-	5750 2100 6050 2100
-Wire Wire Line
 	5450 2750 5450 2850
-Wire Wire Line
-	5750 2750 6050 2750
-Wire Wire Line
-	5750 4150 6050 4150
 Wire Wire Line
 	4100 4600 4100 4850
 Wire Wire Line
 	4100 4850 4250 4850
-Wire Wire Line
-	5750 4800 6050 4800
 Wire Wire Line
 	5450 4800 5450 4900
 Wire Wire Line
@@ -554,10 +506,6 @@ Wire Wire Line
 	7500 4150 7700 4150
 Wire Wire Line
 	7500 2100 7700 2100
-Wire Wire Line
-	6050 4150 6650 4150
-Wire Wire Line
-	6050 2100 6650 2100
 $Comp
 L Device:R_Small R211
 U 1 1 5B6C2A1E
@@ -738,4 +686,8 @@ $EndComp
 Wire Wire Line
 	5050 1000 5050 1250
 Connection ~ 5050 1250
+Wire Wire Line
+	5750 2100 6650 2100
+Wire Wire Line
+	5750 4150 6650 4150
 $EndSCHEMATC
