@@ -20,7 +20,7 @@ U 1 1 5B0C3B3C
 P 5450 2350
 F 0 "C201" H 5475 2450 50  0000 L CNN
 F 1 "100u" H 5475 2250 50  0000 L CNN
-F 2 "frontend_additional-footprints:UVR2C101MHD" H 5450 2350 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 5450 2350 50  0001 C CNN
 F 3 "" H 5450 2350 50  0000 C CNN
 F 4 "Nichicon" H 5450 2350 60  0001 C CNN "Manufacturer"
 F 5 "493-1165-ND" H 5450 2350 60  0001 C CNN "Digikey"
@@ -29,45 +29,17 @@ F 6 "UVR2C101MHD" H 5450 2350 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C203
-U 1 1 5B0C3B46
-P 5750 2350
-F 0 "C203" H 5775 2450 50  0000 L CNN
-F 1 "100u" H 5775 2250 50  0000 L CNN
-F 2 "frontend_additional-footprints:UVR2C101MHD" H 5750 2350 50  0001 C CNN
-F 3 "" H 5750 2350 50  0000 C CNN
-F 4 "Nichicon" H 5750 2350 60  0001 C CNN "Manufacturer"
-F 5 "493-1165-ND" H 5750 2350 60  0001 C CNN "Digikey"
-F 6 "UVR2C101MHD" H 5750 2350 60  0001 C CNN "Part Number"
-	1    5750 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C202
 U 1 1 5B0C3B5A
 P 5450 4400
 F 0 "C202" H 5475 4500 50  0000 L CNN
 F 1 "100u" H 5475 4300 50  0000 L CNN
-F 2 "frontend_additional-footprints:UVR2C101MHD" H 5450 4400 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 5450 4400 50  0001 C CNN
 F 3 "" H 5450 4400 50  0000 C CNN
 F 4 "Nichicon" H 5450 4400 60  0001 C CNN "Manufacturer"
 F 5 "493-1165-ND" H 5450 4400 60  0001 C CNN "Digikey"
 F 6 "UVR2C101MHD" H 5450 4400 60  0001 C CNN "Part Number"
 	1    5450 4400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:CP1 C204
-U 1 1 5B0C3B64
-P 5750 4400
-F 0 "C204" H 5775 4500 50  0000 L CNN
-F 1 "100u" H 5775 4300 50  0000 L CNN
-F 2 "frontend_additional-footprints:UVR2C101MHD" H 5750 4400 50  0001 C CNN
-F 3 "" H 5750 4400 50  0000 C CNN
-F 4 "Nichicon" H 5750 4400 60  0001 C CNN "Manufacturer"
-F 5 "493-1165-ND" H 5750 4400 60  0001 C CNN "Digikey"
-F 6 "UVR2C101MHD" H 5750 4400 60  0001 C CNN "Part Number"
-	1    5750 4400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -85,8 +57,6 @@ F 7 "512-FDMS86263P" H 4100 2200 60  0001 C CNN "Mouser"
 	1    4100 2200
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5750 2200 5750 2100
 $Comp
 L Device:D_Zener D201
 U 1 1 5B0C3B82
@@ -152,7 +122,6 @@ F 3 "" H 4850 3400 50  0000 C CNN
 	1    4850 3450
 	1    0    0    -1  
 $EndComp
-Connection ~ 5750 2100
 $Comp
 L power:GNDPWR #PWR023
 U 1 1 5B0C3BAD
@@ -164,16 +133,6 @@ F 3 "" H 5450 2800 50  0000 C CNN
 	1    5450 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 2500 5450 2750
-Wire Wire Line
-	5450 2750 5750 2750
-Connection ~ 5450 2750
-Wire Wire Line
-	5750 2500 5750 2750
-Wire Wire Line
-	5750 4150 5750 4250
-Connection ~ 5750 4150
 $Comp
 L Device:Q_NMOS_DGS Q202
 U 1 1 5B0C3BC2
@@ -263,12 +222,6 @@ Wire Wire Line
 	3000 2200 3350 2200
 Wire Wire Line
 	4300 2100 4350 2100
-Wire Wire Line
-	5450 4550 5450 4800
-Wire Wire Line
-	5450 4800 5750 4800
-Wire Wire Line
-	5750 4550 5750 4800
 $Comp
 L power:GNDPWR #PWR025
 U 1 1 5B0C3C0A
@@ -280,7 +233,6 @@ F 3 "" H 5450 4850 50  0000 C CNN
 	1    5450 4900
 	1    0    0    -1  
 $EndComp
-Connection ~ 5450 4800
 Wire Wire Line
 	3350 4150 3850 4150
 $Comp
@@ -477,13 +429,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 2750 4250 2750
 Wire Wire Line
-	5450 2750 5450 2850
-Wire Wire Line
 	4100 4600 4100 4850
 Wire Wire Line
 	4100 4850 4250 4850
-Wire Wire Line
-	5450 4800 5450 4900
 Wire Wire Line
 	3850 2100 3900 2100
 Wire Wire Line
@@ -496,10 +444,6 @@ Wire Wire Line
 	3350 4600 3350 4850
 Wire Wire Line
 	3350 4150 3350 4600
-Wire Wire Line
-	5450 2100 5750 2100
-Wire Wire Line
-	5450 4150 5750 4150
 Wire Wire Line
 	7050 2100 7500 2100
 Wire Wire Line
@@ -687,7 +631,11 @@ Wire Wire Line
 	5050 1000 5050 1250
 Connection ~ 5050 1250
 Wire Wire Line
-	5750 2100 6650 2100
+	5450 2500 5450 2850
 Wire Wire Line
-	5750 4150 6650 4150
+	5450 2100 6650 2100
+Wire Wire Line
+	5450 4550 5450 4900
+Wire Wire Line
+	5450 4150 6650 4150
 $EndSCHEMATC

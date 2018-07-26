@@ -378,8 +378,6 @@ Wire Wire Line
 	4750 1050 4750 1350
 Wire Wire Line
 	4750 1550 4750 1950
-Wire Wire Line
-	4500 1550 4500 1950
 $Comp
 L Device:C_Small C412
 U 1 1 5B3A289B
@@ -389,21 +387,6 @@ F 1 "C_Small" H 4760 1370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 1450 50  0001 C CNN
 F 3 "" H 4750 1450 50  0000 C CNN
 	1    4750 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C411
-U 1 1 5B3A28A1
-P 4500 1450
-F 0 "C411" H 4510 1520 50  0000 L CNN
-F 1 "CP1_Small" H 4510 1370 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 4500 1450 50  0001 C CNN
-F 3 "" H 4500 1450 50  0000 C CNN
-F 4 "732-8430-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "Würth" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "710-865080440002" H 0   0   50  0001 C CNN "Mouser"
-F 7 "865080440002" H 0   0   50  0001 C CNN "Part Number"
-	1    4500 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -422,7 +405,6 @@ F 3 "" H 4500 2000 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4750 1950 4500 1950
-Connection ~ 4500 1950
 $Comp
 L power:+12V #PWR054
 U 1 1 5B3A2B1E
@@ -740,8 +722,6 @@ Wire Wire Line
 	1200 2700 1200 2850
 Wire Wire Line
 	1450 3350 1450 3750
-Wire Wire Line
-	1200 3350 1200 3750
 $Comp
 L Device:C_Small C403
 U 1 1 5B3A4EB2
@@ -751,21 +731,6 @@ F 1 "C_Small" H 1460 3170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 3250 50  0001 C CNN
 F 3 "" H 1450 3250 50  0000 C CNN
 	1    1450 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C401
-U 1 1 5B3A4EB8
-P 1200 3250
-F 0 "C401" H 1210 3320 50  0000 L CNN
-F 1 "CP1_Small" H 1210 3170 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 1200 3250 50  0001 C CNN
-F 3 "" H 1200 3250 50  0000 C CNN
-F 4 "732-8430-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 5 "Würth" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "710-865080440002" H 0   0   50  0001 C CNN "Mouser"
-F 7 "865080440002" H 0   0   50  0001 C CNN "Part Number"
-	1    1200 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -783,7 +748,6 @@ F 3 "" H 1200 3800 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1450 3750 1200 3750
-Connection ~ 1200 3750
 $Comp
 L power:+12V #PWR061
 U 1 1 5B3A4EC8
@@ -795,7 +759,6 @@ F 3 "" H 1200 2700 50  0000 C CNN
 	1    1200 2700
 	1    0    0    -1  
 $EndComp
-Connection ~ 1200 2850
 $Comp
 L Device:LED D401
 U 1 1 5B3A5CFC
@@ -1618,8 +1581,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 1950 4500 2000
 Wire Wire Line
-	4500 1050 4500 1350
-Wire Wire Line
 	4250 3100 4500 3100
 Wire Wire Line
 	4250 2850 4250 3100
@@ -1639,8 +1600,6 @@ Wire Wire Line
 	2150 3750 2400 3750
 Wire Wire Line
 	1200 3750 1200 3800
-Wire Wire Line
-	1200 2850 1200 3150
 Wire Wire Line
 	2000 7150 2400 7150
 Wire Wire Line
@@ -1703,7 +1662,6 @@ Wire Wire Line
 	10150 1300 10200 1300
 Wire Wire Line
 	4500 1050 4500 900 
-Connection ~ 4500 1050
 Wire Wire Line
 	2550 2850 1450 2850
 Connection ~ 1450 2850

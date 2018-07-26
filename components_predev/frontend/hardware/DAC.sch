@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title "Digital-Analog Converter"
 Date ""
 Rev "1"
@@ -80,8 +80,6 @@ Wire Wire Line
 	3750 3900 4100 3900
 Wire Wire Line
 	3750 3800 4150 3800
-NoConn ~ 3300 4300
-NoConn ~ 2900 4300
 Text HLabel 2200 3800 0    60   BiDi ~ 0
 ~BUSY
 $Comp
@@ -185,73 +183,8 @@ F 3 "" H 2300 3400 50  0000 C CNN
 $EndComp
 Text HLabel 8700 4850 2    60   Output ~ 0
 output
-$Comp
-L Device:R_Pack04 RN602
-U 1 1 5B2A27DD
-P 3550 4000
-F 0 "RN602" V 3250 4000 50  0000 C CNN
-F 1 "22" V 3750 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 3825 4000 50  0001 C CNN
-F 3 "" H 3550 4000 50  0000 C CNN
-F 4 "Y10220CT-ND " H 200 700 50  0001 C CNN "Digikey"
-F 5 "Panasonic" H 200 700 50  0001 C CNN "Manufacturer"
-F 6 "667-EXB-N8V220JX " H 200 700 50  0001 C CNN "Mouser"
-F 7 "EXB-N8V220JX " H 200 700 50  0001 C CNN "Part Number"
-	1    3550 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN603
-U 1 1 5B2A2862
-P 3550 5000
-F 0 "RN603" V 3250 5000 50  0000 C CNN
-F 1 "22" V 3750 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 3825 5000 50  0001 C CNN
-F 3 "" H 3550 5000 50  0000 C CNN
-F 4 "Y10220CT-ND " H 200 700 50  0001 C CNN "Digikey"
-F 5 "Panasonic" H 200 700 50  0001 C CNN "Manufacturer"
-F 6 "667-EXB-N8V220JX " H 200 700 50  0001 C CNN "Mouser"
-F 7 "EXB-N8V220JX " H 200 700 50  0001 C CNN "Part Number"
-	1    3550 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN601
-U 1 1 5B2A28B9
-P 3100 4500
-F 0 "RN601" V 2800 4500 50  0000 C CNN
-F 1 "22" V 3300 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 3375 4500 50  0001 C CNN
-F 3 "" H 3100 4500 50  0000 C CNN
-F 4 "Y10220CT-ND " H 200 700 50  0001 C CNN "Digikey"
-F 5 "Panasonic" H 200 700 50  0001 C CNN "Manufacturer"
-F 6 "667-EXB-N8V220JX " H 200 700 50  0001 C CNN "Mouser"
-F 7 "EXB-N8V220JX " H 200 700 50  0001 C CNN "Part Number"
-	1    3100 4500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2200 4400 2300 4400
-Wire Wire Line
-	2900 4500 2200 4500
-Wire Wire Line
-	2200 4600 2900 4600
-Wire Wire Line
-	2200 3800 3350 3800
-Wire Wire Line
-	3350 3900 3050 3900
-Wire Wire Line
-	3350 4000 2500 4000
-Wire Wire Line
-	3350 4100 2200 4100
-Wire Wire Line
-	3350 5100 2200 5100
-Wire Wire Line
-	2200 5000 3350 5000
-Wire Wire Line
-	3350 4900 2200 4900
-Wire Wire Line
-	2200 4800 3350 4800
 Wire Wire Line
 	2300 3500 2300 4400
 Connection ~ 2300 4400
@@ -263,8 +196,6 @@ Wire Wire Line
 	3550 3300 4150 3300
 Wire Wire Line
 	2700 3300 2700 3500
-Wire Wire Line
-	2300 4400 2900 4400
 $Comp
 L power:GND #PWR0138
 U 1 1 5B5A45C8
@@ -573,4 +504,147 @@ Connection ~ 6800 4500
 Wire Wire Line
 	6800 4500 8300 4500
 NoConn ~ 6550 4900
+$Comp
+L Device:R_Small R520
+U 1 1 5B632256
+P 3650 3800
+F 0 "R520" V 3454 3800 50  0000 C CNN
+F 1 "R_Small" V 3545 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 3800 50  0001 C CNN
+F 3 "~" H 3650 3800 50  0001 C CNN
+	1    3650 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R521
+U 1 1 5B6322DF
+P 3650 3900
+F 0 "R521" V 3454 3900 50  0000 C CNN
+F 1 "R_Small" V 3545 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 3900 50  0001 C CNN
+F 3 "~" H 3650 3900 50  0001 C CNN
+	1    3650 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R522
+U 1 1 5B63234C
+P 3650 4000
+F 0 "R522" V 3454 4000 50  0000 C CNN
+F 1 "R_Small" V 3545 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 4000 50  0001 C CNN
+F 3 "~" H 3650 4000 50  0001 C CNN
+	1    3650 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R523
+U 1 1 5B6323BD
+P 3650 4100
+F 0 "R523" V 3454 4100 50  0000 C CNN
+F 1 "R_Small" V 3545 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 4100 50  0001 C CNN
+F 3 "~" H 3650 4100 50  0001 C CNN
+	1    3650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R517
+U 1 1 5B632432
+P 3200 4400
+F 0 "R517" V 3004 4400 50  0000 C CNN
+F 1 "R_Small" V 3095 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 4400 50  0001 C CNN
+F 3 "~" H 3200 4400 50  0001 C CNN
+	1    3200 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R518
+U 1 1 5B6324AD
+P 3200 4500
+F 0 "R518" V 3004 4500 50  0000 C CNN
+F 1 "R_Small" V 3095 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 4500 50  0001 C CNN
+F 3 "~" H 3200 4500 50  0001 C CNN
+	1    3200 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R519
+U 1 1 5B63252A
+P 3200 4600
+F 0 "R519" V 3004 4600 50  0000 C CNN
+F 1 "R_Small" V 3095 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 4600 50  0001 C CNN
+F 3 "~" H 3200 4600 50  0001 C CNN
+	1    3200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R524
+U 1 1 5B6325AB
+P 3650 4800
+F 0 "R524" V 3454 4800 50  0000 C CNN
+F 1 "R_Small" V 3545 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 4800 50  0001 C CNN
+F 3 "~" H 3650 4800 50  0001 C CNN
+	1    3650 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R525
+U 1 1 5B632630
+P 3650 4900
+F 0 "R525" V 3454 4900 50  0000 C CNN
+F 1 "R_Small" V 3545 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 4900 50  0001 C CNN
+F 3 "~" H 3650 4900 50  0001 C CNN
+	1    3650 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R526
+U 1 1 5B6326B9
+P 3650 5000
+F 0 "R526" V 3454 5000 50  0000 C CNN
+F 1 "R_Small" V 3545 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 5000 50  0001 C CNN
+F 3 "~" H 3650 5000 50  0001 C CNN
+	1    3650 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R527
+U 1 1 5B632746
+P 3650 5100
+F 0 "R527" V 3454 5100 50  0000 C CNN
+F 1 "R_Small" V 3545 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 5100 50  0001 C CNN
+F 3 "~" H 3650 5100 50  0001 C CNN
+	1    3650 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 5100 3550 5100
+Wire Wire Line
+	2200 5000 3550 5000
+Wire Wire Line
+	2200 4800 3550 4800
+Wire Wire Line
+	2200 4600 3100 4600
+Wire Wire Line
+	2200 4500 3100 4500
+Wire Wire Line
+	2300 4400 3100 4400
+Wire Wire Line
+	2200 4100 3550 4100
+Wire Wire Line
+	2500 4000 3550 4000
+Wire Wire Line
+	3050 3900 3550 3900
+Wire Wire Line
+	2200 3800 3550 3800
+Wire Wire Line
+	2200 4900 3550 4900
 $EndSCHEMATC
