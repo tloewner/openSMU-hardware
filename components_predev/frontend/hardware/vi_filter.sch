@@ -395,12 +395,12 @@ $EndComp
 $Comp
 L 74xx:74HC595 U502
 U 1 1 5B48BC90
-P 4100 3650
-F 0 "U502" H 4400 3050 50  0000 C CNN
-F 1 "74HC595" H 4100 3050 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4100 3650 50  0001 C CNN
-F 3 "" H 4100 3650 50  0000 C CNN
-	1    4100 3650
+P 3950 3450
+F 0 "U502" H 4250 2850 50  0000 C CNN
+F 1 "74HC595" H 3950 2850 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3950 3450 50  0001 C CNN
+F 3 "" H 3950 3450 50  0000 C CNN
+	1    3950 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -436,32 +436,22 @@ F 3 "" H 5450 2200 50  0000 C CNN
 	1    5450 2200
 	0    1    1    0   
 $EndComp
-Text GLabel 4700 3250 2    47   Output ~ 0
+Text GLabel 4550 3050 2    47   Output ~ 0
 B0
-Text GLabel 4700 3350 2    47   Output ~ 0
+Text GLabel 4550 3150 2    47   Output ~ 0
 B1
-Text GLabel 4700 3450 2    47   Output ~ 0
+Text GLabel 4550 3250 2    47   Output ~ 0
 B2
-Text GLabel 4700 3550 2    47   Output ~ 0
+Text GLabel 4550 3350 2    47   Output ~ 0
 B3
-Text GLabel 4700 3650 2    47   Output ~ 0
+Text GLabel 4550 3450 2    47   Output ~ 0
 B4
-Text GLabel 4700 3750 2    47   Output ~ 0
+Text GLabel 4550 3550 2    47   Output ~ 0
 B5
-Text GLabel 2650 1000 2    47   Input ~ 0
-B0
-Text GLabel 2650 850  2    47   Input ~ 0
-B1
-Text GLabel 2650 4700 2    47   Input ~ 0
-B2
-Text GLabel 2650 4550 2    47   Input ~ 0
-B3
 Text HLabel 1250 5350 0    60   Output ~ 0
 i_meas+
 Text HLabel 1250 5550 0    60   Output ~ 0
 i_meas-
-NoConn ~ 4500 4150
-NoConn ~ 4500 3950
 $Comp
 L Device:R_Small R509
 U 1 1 5B4BA76B
@@ -511,36 +501,36 @@ Text GLabel 6000 750  0    47   Input ~ 0
 $Comp
 L power:GND #PWR080
 U 1 1 5B4BEBFD
-P 5300 3850
-F 0 "#PWR080" H 5300 3600 50  0001 C CNN
-F 1 "GND" H 5300 3700 50  0000 C CNN
-F 2 "" H 5300 3850 50  0000 C CNN
-F 3 "" H 5300 3850 50  0000 C CNN
-	1    5300 3850
+P 6500 3700
+F 0 "#PWR080" H 6500 3450 50  0001 C CNN
+F 1 "GND" H 6500 3550 50  0000 C CNN
+F 2 "" H 6500 3700 50  0000 C CNN
+F 3 "" H 6500 3700 50  0000 C CNN
+	1    6500 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C501
 U 1 1 5B4BEC6D
-P 5300 3500
-F 0 "C501" H 5310 3570 50  0000 L CNN
-F 1 "C_Small" H 5310 3420 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 3500 50  0001 C CNN
-F 3 "" H 5300 3500 50  0000 C CNN
-	1    5300 3500
+P 6500 3350
+F 0 "C501" H 6510 3420 50  0000 L CNN
+F 1 "C_Small" H 6510 3270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6500 3350 50  0001 C CNN
+F 3 "" H 6500 3350 50  0000 C CNN
+	1    6500 3350
 	1    0    0    1   
 $EndComp
 $Comp
 L +3.3V #PWR081
 U 1 1 5B4BF1FE
-P 5550 3250
+P 6500 3100
 AR Path="/5B4BF1FE" Ref="#PWR081"  Part="1" 
 AR Path="/5B156993/5B4BF1FE" Ref="#PWR081"  Part="1" 
-F 0 "#PWR081" H 5550 3100 50  0001 C CNN
-F 1 "+3.3V" H 5550 3390 50  0000 C CNN
-F 2 "" H 5550 3250 50  0000 C CNN
-F 3 "" H 5550 3250 50  0000 C CNN
-	1    5550 3250
+F 0 "#PWR081" H 6500 2950 50  0001 C CNN
+F 1 "+3.3V" H 6500 3240 50  0000 C CNN
+F 2 "" H 6500 3100 50  0000 C CNN
+F 3 "" H 6500 3100 50  0000 C CNN
+	1    6500 3100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -777,7 +767,7 @@ NoConn ~ 5800 2450
 NoConn ~ 5800 2550
 NoConn ~ 1650 5900
 NoConn ~ 1650 6000
-Text GLabel 4700 3850 2    47   Output ~ 0
+Text GLabel 4550 3650 2    47   Output ~ 0
 B6
 Text GLabel 8350 2000 2    47   Input ~ 0
 L1
@@ -834,7 +824,7 @@ F 3 "" H 7700 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7250 3650 0    47   Input ~ 0
-B4
+B0
 $Comp
 L Device:Q_NMOS_DGS Q502
 U 1 1 5B4F134F
@@ -873,7 +863,7 @@ F 3 "" H 8550 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8100 3650 0    47   Input ~ 0
-B5
+B1
 $Comp
 L Device:Q_NMOS_DGS Q503
 U 1 1 5B4F14A1
@@ -912,7 +902,7 @@ F 3 "" H 9400 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8950 3650 0    47   Input ~ 0
-B6
+B2
 Text GLabel 7700 3300 1    47   Input ~ 0
 L1
 Text GLabel 8550 3300 1    47   Input ~ 0
@@ -1135,23 +1125,19 @@ Wire Wire Line
 Wire Wire Line
 	5650 1800 5550 1800
 Wire Wire Line
-	4500 3250 4700 3250
+	4350 3050 4550 3050
 Wire Wire Line
-	4500 3350 4700 3350
+	4350 3150 4550 3150
 Wire Wire Line
-	4500 3450 4700 3450
+	4350 3250 4550 3250
 Wire Wire Line
-	4700 3550 4500 3550
+	4550 3350 4350 3350
 Wire Wire Line
-	4500 3650 4700 3650
+	4350 3450 4550 3450
 Wire Wire Line
-	4700 3750 4500 3750
-Wire Wire Line
-	2650 1000 2550 1000
+	4550 3550 4350 3550
 Wire Wire Line
 	2550 1000 2550 1300
-Wire Wire Line
-	2650 850  2400 850 
 Wire Wire Line
 	2400 850  2400 1300
 Wire Wire Line
@@ -1180,13 +1166,6 @@ Wire Wire Line
 	6250 750  6250 1000
 Connection ~ 6100 1150
 Connection ~ 6250 1000
-Wire Wire Line
-	5300 3600 5300 3850
-Wire Wire Line
-	5550 3250 5550 3350
-Wire Wire Line
-	5550 3350 5300 3350
-Connection ~ 5300 3350
 Wire Wire Line
 	9550 1450 9550 1600
 Wire Wire Line
@@ -1310,7 +1289,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 2350 5800 2350
 Wire Wire Line
-	4700 3850 4500 3850
+	4550 3650 4350 3650
 Wire Wire Line
 	6550 1150 6550 1300
 Wire Wire Line
@@ -1416,8 +1395,6 @@ Wire Wire Line
 	1400 2550 1400 2350
 Wire Wire Line
 	2550 4750 2550 4700
-Wire Wire Line
-	2550 4700 2650 4700
 Wire Wire Line
 	2650 4550 2400 4550
 Wire Wire Line
@@ -1814,41 +1791,41 @@ NoConn ~ 5800 6000
 $Comp
 L power:GND #PWR0101
 U 1 1 5B4E86DF
-P 3550 4000
-F 0 "#PWR0101" H 3550 3750 50  0001 C CNN
-F 1 "GND" H 3550 3850 50  0000 C CNN
-F 2 "" H 3550 4000 50  0000 C CNN
-F 3 "" H 3550 4000 50  0000 C CNN
-	1    3550 4000
-	1    0    0    -1  
+P 2950 3650
+F 0 "#PWR0101" H 2950 3400 50  0001 C CNN
+F 1 "GND" H 2950 3500 50  0000 C CNN
+F 2 "" H 2950 3650 50  0000 C CNN
+F 3 "" H 2950 3650 50  0000 C CNN
+	1    2950 3650
+	0    1    1    0   
 $EndComp
 $Comp
 L +3.3V #PWR0102
 U 1 1 5B4E9A15
-P 3100 3550
+P 2950 3350
 AR Path="/5B4E9A15" Ref="#PWR0102"  Part="1" 
 AR Path="/5B156993/5B4E9A15" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 3100 3400 50  0001 C CNN
-F 1 "+3.3V" H 3100 3690 50  0000 C CNN
-F 2 "" H 3100 3550 50  0000 C CNN
-F 3 "" H 3100 3550 50  0000 C CNN
-	1    3100 3550
+F 0 "#PWR0102" H 2950 3200 50  0001 C CNN
+F 1 "+3.3V" H 2950 3490 50  0000 C CNN
+F 2 "" H 2950 3350 50  0000 C CNN
+F 3 "" H 2950 3350 50  0000 C CNN
+	1    2950 3350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3100 3550 3700 3550
-Text HLabel 3550 3250 0    60   Input ~ 0
+	2950 3350 3550 3350
+Text HLabel 3400 3050 0    60   Input ~ 0
 SER
-Text HLabel 3550 3450 0    60   Input ~ 0
+Text HLabel 3400 3250 0    60   Input ~ 0
 SRCLK
-Text HLabel 3550 3750 0    60   Input ~ 0
+Text HLabel 3400 3550 0    60   Input ~ 0
 RCLK
 Wire Wire Line
-	3550 3750 3700 3750
+	3400 3550 3500 3550
 Wire Wire Line
-	3550 3450 3700 3450
+	3400 3250 3500 3250
 Wire Wire Line
-	3550 3250 3700 3250
+	3400 3050 3550 3050
 Wire Wire Line
 	3250 2200 3350 2200
 Wire Wire Line
@@ -1895,8 +1872,6 @@ Wire Wire Line
 	6100 1150 6550 1150
 Wire Wire Line
 	6250 1000 6250 1300
-Wire Wire Line
-	5300 3350 5300 3400
 Wire Wire Line
 	10750 2350 10750 2550
 Wire Wire Line
@@ -2006,27 +1981,346 @@ F 3 "" H 2650 6750 47  0001 C CNN
 $EndComp
 Wire Wire Line
 	2650 7350 2650 7450
-Wire Wire Line
-	4100 2900 4100 3050
-Wire Wire Line
-	5300 2900 4100 2900
-Wire Wire Line
-	5300 2900 5300 3350
 $Comp
 L power:GND #PWR0143
 U 1 1 5B6D5860
-P 4100 4500
-F 0 "#PWR0143" H 4100 4250 50  0001 C CNN
-F 1 "GND" H 4105 4327 50  0000 C CNN
-F 2 "" H 4100 4500 50  0001 C CNN
-F 3 "" H 4100 4500 50  0001 C CNN
-	1    4100 4500
+P 3950 4300
+F 0 "#PWR0143" H 3950 4050 50  0001 C CNN
+F 1 "GND" H 3955 4127 50  0000 C CNN
+F 2 "" H 3950 4300 50  0001 C CNN
+F 3 "" H 3950 4300 50  0001 C CNN
+	1    3950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L frontend_additional_components:SN74LVC1G373 U407
+U 1 1 5B86EC37
+P 1900 4150
+F 0 "U407" H 1900 4767 50  0000 C CNN
+F 1 "SN74LVC1G373" H 1900 4676 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1900 4150 50  0001 C CNN
+F 3 "" H 1900 4150 50  0001 C CNN
+	1    1900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U410
+U 1 1 5B88BCF2
+P 5450 3450
+F 0 "U410" H 5750 2850 50  0000 C CNN
+F 1 "74HC595" H 5450 2850 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5450 3450 50  0001 C CNN
+F 3 "" H 5450 3450 50  0000 C CNN
+	1    5450 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 4500 4100 4350
+	3950 4150 3950 4200
 Wire Wire Line
-	3550 4000 3550 3850
+	5450 4150 5450 4200
 Wire Wire Line
-	3550 3850 3700 3850
+	5450 4200 3950 4200
+Connection ~ 3950 4200
+Wire Wire Line
+	3950 4200 3950 4300
+Wire Wire Line
+	4350 3950 4800 3950
+Wire Wire Line
+	4800 3950 4800 3050
+Wire Wire Line
+	4800 3050 5050 3050
+Wire Wire Line
+	3500 3250 3500 2650
+Wire Wire Line
+	3500 2650 4900 2650
+Connection ~ 3500 3250
+Wire Wire Line
+	3500 3250 3550 3250
+Wire Wire Line
+	2950 3650 3550 3650
+Wire Wire Line
+	3500 3550 3500 4550
+Wire Wire Line
+	3500 4550 4900 4550
+Wire Wire Line
+	4900 4550 4900 3550
+Wire Wire Line
+	4900 3550 5050 3550
+Connection ~ 3500 3550
+Wire Wire Line
+	3500 3550 3550 3550
+Wire Wire Line
+	5050 3250 4900 3250
+Wire Wire Line
+	4900 3250 4900 2650
+$Comp
+L power:GND #PWR0402
+U 1 1 5B97C972
+P 5050 3800
+F 0 "#PWR0402" H 5050 3550 50  0001 C CNN
+F 1 "GND" H 5050 3650 50  0000 C CNN
+F 2 "" H 5050 3800 50  0000 C CNN
+F 3 "" H 5050 3800 50  0000 C CNN
+	1    5050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3800 5050 3650
+$Comp
+L +3.3V #PWR?
+U 1 1 5B99C336
+P 5000 3350
+AR Path="/5B99C336" Ref="#PWR?"  Part="1" 
+AR Path="/5B156993/5B99C336" Ref="#PWR0401"  Part="1" 
+F 0 "#PWR0401" H 5000 3200 50  0001 C CNN
+F 1 "+3.3V" H 5000 3490 50  0000 C CNN
+F 2 "" H 5000 3350 50  0000 C CNN
+F 3 "" H 5000 3350 50  0000 C CNN
+	1    5000 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3350 5050 3350
+$Comp
+L frontend_additional_components:SN74LVC1G373 U406
+U 1 1 5B9DC973
+P 1900 3600
+F 0 "U406" H 1900 4217 50  0000 C CNN
+F 1 "SN74LVC1G373" H 1900 4126 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1900 3600 50  0001 C CNN
+F 3 "" H 1900 3600 50  0001 C CNN
+	1    1900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4550 2650 3750
+Wire Wire Line
+	2650 3750 2150 3750
+Wire Wire Line
+	2750 4700 2750 3200
+Wire Wire Line
+	2750 3200 2150 3200
+Wire Wire Line
+	2550 4700 2750 4700
+Wire Wire Line
+	2100 4300 2100 4100
+Wire Wire Line
+	2100 4100 2300 4100
+Wire Wire Line
+	2300 4100 2300 4050
+Wire Wire Line
+	2300 3300 2150 3300
+Connection ~ 2100 4300
+Wire Wire Line
+	2150 3850 2300 3850
+Connection ~ 2300 3850
+Wire Wire Line
+	2300 3850 2300 3500
+Wire Wire Line
+	1950 4300 1950 4100
+Wire Wire Line
+	1950 4100 1500 4100
+Wire Wire Line
+	1500 4100 1500 3850
+Wire Wire Line
+	1500 3850 1650 3850
+Connection ~ 1950 4300
+Wire Wire Line
+	1500 3850 1500 3300
+Wire Wire Line
+	1500 3300 1650 3300
+Connection ~ 1500 3850
+Text GLabel 1500 3200 0    47   Input ~ 0
+B3
+Wire Wire Line
+	1650 3950 1600 3950
+Wire Wire Line
+	1600 3950 1600 4050
+Wire Wire Line
+	1600 4050 2300 4050
+Connection ~ 2300 4050
+Wire Wire Line
+	2300 4050 2300 3850
+Wire Wire Line
+	1650 3400 1600 3400
+Wire Wire Line
+	1600 3400 1600 3500
+Wire Wire Line
+	1600 3500 2300 3500
+Connection ~ 2300 3500
+Wire Wire Line
+	2300 3500 2300 3300
+Wire Wire Line
+	1500 3200 1650 3200
+Text GLabel 2400 3400 2    47   Input ~ 0
+B4
+Wire Wire Line
+	2400 3400 2150 3400
+Text GLabel 4550 3750 2    47   Output ~ 0
+B7
+Wire Wire Line
+	4550 3750 4350 3750
+Text GLabel 1400 3750 0    47   Input ~ 0
+B5
+Text GLabel 2400 3950 2    47   Input ~ 0
+B6
+Wire Wire Line
+	2400 3950 2150 3950
+Wire Wire Line
+	1650 3750 1400 3750
+$Comp
+L +3.3V #PWR?
+U 1 1 5BC254F6
+P 5200 2750
+AR Path="/5BC254F6" Ref="#PWR?"  Part="1" 
+AR Path="/5B156993/5BC254F6" Ref="#PWR0403"  Part="1" 
+F 0 "#PWR0403" H 5200 2600 50  0001 C CNN
+F 1 "+3.3V" H 5200 2890 50  0000 C CNN
+F 2 "" H 5200 2750 50  0000 C CNN
+F 3 "" H 5200 2750 50  0000 C CNN
+	1    5200 2750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2850 5450 2800
+Wire Wire Line
+	5450 2800 5200 2800
+Wire Wire Line
+	3950 2800 3950 2850
+Wire Wire Line
+	5200 2750 5200 2800
+Connection ~ 5200 2800
+Wire Wire Line
+	5200 2800 3950 2800
+Text GLabel 6050 3050 2    47   Output ~ 0
+B8
+Text GLabel 6050 3150 2    47   Output ~ 0
+B9
+Text GLabel 6050 3250 2    47   Output ~ 0
+B10
+Text GLabel 6050 3350 2    47   Output ~ 0
+B11
+Text GLabel 6050 3450 2    47   Output ~ 0
+B12
+Text GLabel 6050 3550 2    47   Output ~ 0
+B13
+Text GLabel 6050 3650 2    47   Output ~ 0
+B14
+Wire Wire Line
+	5850 3050 6050 3050
+Wire Wire Line
+	5850 3150 6050 3150
+Wire Wire Line
+	5850 3250 6050 3250
+Wire Wire Line
+	6050 3350 5850 3350
+Wire Wire Line
+	5850 3450 6050 3450
+Wire Wire Line
+	6050 3550 5850 3550
+Wire Wire Line
+	6050 3650 5850 3650
+Text GLabel 6050 3750 2    47   Output ~ 0
+B15
+Wire Wire Line
+	6050 3750 5850 3750
+Wire Wire Line
+	6500 3450 6500 3700
+Wire Wire Line
+	6500 3250 6500 3100
+NoConn ~ 5850 3950
+$Comp
+L frontend_additional_components:SN74LVC1G373 U408
+U 1 1 5BD422AD
+P 3350 1400
+F 0 "U408" H 3350 1400 50  0000 C CNN
+F 1 "SN74LVC1G373" H 3350 1500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3350 1400 50  0001 C CNN
+F 3 "" H 3350 1400 50  0001 C CNN
+	1    3350 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L frontend_additional_components:SN74LVC1G373 U409
+U 1 1 5BD427E8
+P 4300 1250
+F 0 "U409" H 4300 1250 50  0000 C CNN
+F 1 "SN74LVC1G373" H 4300 1350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4300 1250 50  0001 C CNN
+F 3 "" H 4300 1250 50  0001 C CNN
+	1    4300 1250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1000 3100 1000
+Wire Wire Line
+	2400 850  4050 850 
+Wire Wire Line
+	2100 750  2100 550 
+Wire Wire Line
+	2100 550  2950 550 
+Wire Wire Line
+	2950 550  2950 1100
+Wire Wire Line
+	2950 1100 3100 1100
+Connection ~ 2100 750 
+Wire Wire Line
+	2950 550  3900 550 
+Wire Wire Line
+	3900 550  3900 950 
+Wire Wire Line
+	3900 950  4050 950 
+Connection ~ 2950 550 
+Wire Wire Line
+	1950 750  1950 700 
+Wire Wire Line
+	1950 700  3750 700 
+Wire Wire Line
+	3750 700  3750 1100
+Wire Wire Line
+	3750 1100 3600 1100
+Connection ~ 1950 750 
+Wire Wire Line
+	3750 700  4700 700 
+Wire Wire Line
+	4700 700  4700 950 
+Wire Wire Line
+	4700 950  4550 950 
+Connection ~ 3750 700 
+Wire Wire Line
+	3600 1200 3900 1200
+Wire Wire Line
+	3900 1200 3900 950 
+Connection ~ 3900 950 
+Wire Wire Line
+	3900 1200 4700 1200
+Wire Wire Line
+	4700 1200 4700 1050
+Wire Wire Line
+	4700 1050 4550 1050
+Connection ~ 3900 1200
+Text GLabel 3750 1350 2    47   Input ~ 0
+B7
+Wire Wire Line
+	3750 1350 3700 1350
+Wire Wire Line
+	3700 1350 3700 1000
+Wire Wire Line
+	3700 1000 3600 1000
+Text GLabel 2950 1200 0    47   Input ~ 0
+B8
+Wire Wire Line
+	2950 1200 3100 1200
+Text GLabel 4800 850  2    47   Input ~ 0
+B9
+Wire Wire Line
+	4550 850  4800 850 
+Text GLabel 4150 1350 2    47   Input ~ 0
+B10
+Wire Wire Line
+	4150 1350 4000 1350
+Wire Wire Line
+	4000 1350 4000 1050
+Wire Wire Line
+	4000 1050 4050 1050
 $EndSCHEMATC
