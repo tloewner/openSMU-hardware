@@ -429,7 +429,7 @@ F 3 "" H 7050 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 3300 7050 3450
+	7050 3300 7050 3400
 $Comp
 L Device:R_Small R213
 U 1 1 5B6C7D55
@@ -466,7 +466,7 @@ F 3 "" H 7050 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 5350 7050 5500
+	7050 5350 7050 5450
 Wire Wire Line
 	7050 4850 7050 4150
 Connection ~ 7050 4150
@@ -599,4 +599,48 @@ F 3 "~" H 4100 2200 50  0001 C CNN
 	1    4100 2200
 	0    1    -1   0   
 $EndComp
+$Comp
+L Device:C_Small C725
+U 1 1 5BA0DAD8
+P 6850 5250
+F 0 "C725" H 6758 5204 50  0000 R CNN
+F 1 "C_Small" H 6758 5295 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6850 5250 50  0001 C CNN
+F 3 "~" H 6850 5250 50  0001 C CNN
+	1    6850 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C712
+U 1 1 5BA0DBFF
+P 6850 3200
+F 0 "C712" H 6942 3246 50  0000 L CNN
+F 1 "C_Small" H 6942 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6850 3200 50  0001 C CNN
+F 3 "~" H 6850 3200 50  0001 C CNN
+	1    6850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3050 6850 3050
+Wire Wire Line
+	6850 3050 6850 3100
+Wire Wire Line
+	6850 3300 6850 3400
+Wire Wire Line
+	6850 3400 7050 3400
+Connection ~ 7050 3400
+Wire Wire Line
+	7050 3400 7050 3450
+Wire Wire Line
+	7050 5100 6850 5100
+Wire Wire Line
+	6850 5100 6850 5150
+Wire Wire Line
+	6850 5350 6850 5450
+Wire Wire Line
+	6850 5450 7050 5450
+Connection ~ 7050 5450
+Wire Wire Line
+	7050 5450 7050 5500
 $EndSCHEMATC
