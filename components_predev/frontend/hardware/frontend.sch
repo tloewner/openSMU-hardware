@@ -100,9 +100,9 @@ F 3 "" H 10500 5300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 10350 5000 0    47   Output ~ 0
-ih_sense+
+il_sense+
 Text GLabel 10350 5600 0    47   Output ~ 0
-ih_sense-
+il_sense-
 $Comp
 L power:GNDPWR #PWR05
 U 1 1 5B0C02B5
@@ -264,10 +264,10 @@ F12 "CNVSTB" I L 3550 4300 60
 F13 "v_ref" O R 4650 4750 60 
 F14 "v_ref_2" O R 4650 4850 60 
 $EndSheet
-Text GLabel 8300 5350 2    47   Input ~ 0
-ih_sense-
-Text GLabel 8300 5250 2    47   Input ~ 0
-ih_sense+
+Text GLabel 8300 5600 2    47   Input ~ 0
+il_sense-
+Text GLabel 8300 5500 2    47   Input ~ 0
+il_sense+
 Text GLabel 8300 4950 2    47   Input ~ 0
 v_sense_ext-
 Text GLabel 8300 4700 2    47   Input ~ 0
@@ -449,8 +449,6 @@ F 3 "" H 1350 2850 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9400 5450 9400 5600
-Wire Wire Line
 	1100 6300 1250 6300
 Wire Wire Line
 	9700 1550 9700 1800
@@ -469,11 +467,8 @@ Wire Wire Line
 	9700 2150 9700 1900
 Connection ~ 9700 1900
 Connection ~ 9400 5000
-Connection ~ 9400 5600
 Wire Wire Line
 	9150 5000 9400 5000
-Wire Wire Line
-	8100 5600 9400 5600
 Wire Wire Line
 	10500 5600 10350 5600
 Wire Wire Line
@@ -493,14 +488,6 @@ Wire Wire Line
 	1100 6800 1550 6800
 Wire Wire Line
 	1250 6900 1250 7200
-Wire Wire Line
-	9150 5000 9150 5500
-Wire Wire Line
-	9150 5500 8100 5500
-Wire Wire Line
-	8300 5350 8100 5350
-Wire Wire Line
-	8300 5250 8100 5250
 Wire Wire Line
 	8300 4600 8100 4600
 Wire Wire Line
@@ -756,8 +743,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 5000 9400 5150
 Wire Wire Line
-	9400 5600 9400 5750
-Wire Wire Line
 	10500 5000 10500 5150
 Wire Wire Line
 	1950 6200 5200 6200
@@ -875,4 +860,23 @@ Wire Wire Line
 Wire Wire Line
 	1250 6200 1100 6200
 Connection ~ 1250 6300
+Wire Wire Line
+	9400 5450 9400 5650
+Wire Wire Line
+	8100 5500 8300 5500
+Wire Wire Line
+	8300 5600 8100 5600
+Wire Wire Line
+	8100 5250 9150 5250
+Wire Wire Line
+	9150 5250 9150 5000
+Wire Wire Line
+	8100 5350 9150 5350
+Wire Wire Line
+	9150 5350 9150 5650
+Wire Wire Line
+	9150 5650 9400 5650
+Connection ~ 9400 5650
+Wire Wire Line
+	9400 5650 9400 5750
 $EndSCHEMATC
