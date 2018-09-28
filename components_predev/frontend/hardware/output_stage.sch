@@ -1137,9 +1137,14 @@ L Device:C_Small C300
 U 1 1 5B67FD08
 P 3850 2500
 F 0 "C300" V 3621 2500 50  0000 C CNN
-F 1 "C_Small" V 3712 2500 50  0000 C CNN
+F 1 "100n" V 3712 2500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3850 2500 50  0001 C CNN
 F 3 "~" H 3850 2500 50  0001 C CNN
+F 4 "250 V" V 3850 2500 50  0001 C CNN "Voltage"
+F 5 "1276-3084-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "CL31B104KEHSNNE" H 0   0   50  0001 C CNN "Part Number"
+F 8 "X7R" H 0   0   50  0001 C CNN "Dielectric"
 	1    3850 2500
 	0    1    1    0   
 $EndComp

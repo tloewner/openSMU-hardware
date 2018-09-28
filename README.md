@@ -9,8 +9,10 @@ At the moment, there are the following folders:<br />
   + **frontend**: Output Stage, V/I Measurement, DA/AD Conversion
 
 ### Currently workin on:
-Layout of the frontend predev PCB:<br />
+Layout of the frontend predev PCB is done:<br />
 ![alt text](https://raw.githubusercontent.com/tloewner/openSMU-hardware/master/components_predev/frontend/hardware/status_pcb.png "Status Frontend PCB")
+<br/ >
+Completing BOM now and ordering parts.
 
 ### Documentation
 Will be available at some point, when i get around to it. 
