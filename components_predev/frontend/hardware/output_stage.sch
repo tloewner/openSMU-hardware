@@ -50,6 +50,9 @@ F 0 "R314" V 7780 1300 50  0000 C CNN
 F 1 "1k" V 7700 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7630 1300 50  0001 C CNN
 F 3 "" H 7700 1300 50  0000 C CNN
+F 4 "P1.02KFCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF1021V" H 0   0   50  0001 C CNN "Part Number"
 	1    7700 1300
 	1    0    0    -1  
 $EndComp
@@ -61,6 +64,9 @@ F 0 "R316" V 8380 3300 50  0000 C CNN
 F 1 "200m" V 8300 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 8230 3300 50  0001 C CNN
 F 3 "" H 8300 3300 50  0000 C CNN
+F 4 "P17684CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8BSFR20V" H 0   0   50  0001 C CNN "Part Number"
 	1    8300 3300
 	1    0    0    -1  
 $EndComp
@@ -86,6 +92,9 @@ F 0 "R317" V 8380 3900 50  0000 C CNN
 F 1 "200m" V 8300 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 8230 3900 50  0001 C CNN
 F 3 "" H 8300 3900 50  0000 C CNN
+F 4 "P17684CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8BSFR20V" H 0   0   50  0001 C CNN "Part Number"
 	1    8300 3900
 	1    0    0    -1  
 $EndComp
@@ -137,6 +146,9 @@ F 0 "R315" V 7780 5900 50  0000 C CNN
 F 1 "1k" V 7700 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7630 5900 50  0001 C CNN
 F 3 "" H 7700 5900 50  0000 C CNN
+F 4 "P1.02KFCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF1021V" H 0   0   50  0001 C CNN "Part Number"
 	1    7700 5900
 	1    0    0    -1  
 $EndComp
@@ -148,6 +160,9 @@ F 0 "R312" V 7130 2050 50  0000 C CNN
 F 1 "3k3" V 7050 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6980 2050 50  0001 C CNN
 F 3 "" H 7050 2050 50  0000 C CNN
+F 4 "P3.32KFCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF3321V " H 0   0   50  0001 C CNN "Part Number"
 	1    7050 2050
 	0    1    1    0   
 $EndComp
@@ -159,6 +174,9 @@ F 0 "R313" V 7180 5150 50  0000 C CNN
 F 1 "3k3" V 7100 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7030 5150 50  0001 C CNN
 F 3 "" H 7100 5150 50  0000 C CNN
+F 4 "P3.32KFCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF3321V " H 0   0   50  0001 C CNN "Part Number"
 	1    7100 5150
 	0    1    1    0   
 $EndComp
@@ -210,6 +228,9 @@ F 0 "R309" V 6080 3150 50  0000 C CNN
 F 1 "520" V 6000 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5930 3150 50  0001 C CNN
 F 3 "" H 6000 3150 50  0000 C CNN
+F 4 "P523FCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF5230V" H 0   0   50  0001 C CNN "Part Number"
 	1    6000 3150
 	1    0    0    -1  
 $EndComp
@@ -221,6 +242,9 @@ F 0 "R310" V 6080 4050 50  0000 C CNN
 F 1 "520" V 6000 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5930 4050 50  0001 C CNN
 F 3 "" H 6000 4050 50  0000 C CNN
+F 4 "P523FCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF5230V" H 0   0   50  0001 C CNN "Part Number"
 	1    6000 4050
 	1    0    0    -1  
 $EndComp
@@ -232,6 +256,9 @@ F 0 "R311" V 6730 5900 50  0000 C CNN
 F 1 "68k" V 6650 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6580 5900 50  0001 C CNN
 F 3 "" H 6650 5900 50  0000 C CNN
+F 4 "P68.0KFCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF6802V" H 0   0   50  0001 C CNN "Part Number"
 	1    6650 5900
 	1    0    0    -1  
 $EndComp
@@ -254,6 +281,9 @@ F 0 "R308" V 5530 2350 50  0000 C CNN
 F 1 "68" V 5450 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 5380 2350 50  0001 C CNN
 F 3 "" H 5450 2350 50  0000 C CNN
+F 4 "P68.0FCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF68R0V " H 0   0   50  0001 C CNN "Part Number"
 	1    5450 2350
 	0    1    1    0   
 $EndComp
@@ -538,7 +568,7 @@ L Device:R_Small R318
 U 1 1 5B29F9F2
 P 9550 5150
 F 0 "R318" H 9580 5170 50  0000 L CNN
-F 1 "R_Small" H 9580 5110 50  0000 L CNN
+F 1 "68k" H 9580 5110 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9550 5150 50  0001 C CNN
 F 3 "" H 9550 5150 50  0000 C CNN
 	1    9550 5150
@@ -577,6 +607,9 @@ F 0 "R304" V 4480 3550 50  0000 C CNN
 F 1 "120k" V 4400 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 3550 50  0001 C CNN
 F 3 "" H 4400 3550 50  0000 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "ERJ-8ENF1203V " H 0   0   50  0001 C CNN "Part Number"
+F 6 "P120KFCT-ND " H 0   0   50  0001 C CNN "Digikey"
 	1    4400 3550
 	1    0    0    -1  
 $EndComp
@@ -588,6 +621,9 @@ F 0 "R305" V 4480 4050 50  0000 C CNN
 F 1 "120k" V 4400 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 4050 50  0001 C CNN
 F 3 "" H 4400 4050 50  0000 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "ERJ-8ENF1203V " H 0   0   50  0001 C CNN "Part Number"
+F 6 "P120KFCT-ND " H 0   0   50  0001 C CNN "Digikey"
 	1    4400 4050
 	1    0    0    -1  
 $EndComp
@@ -614,6 +650,9 @@ F 0 "R306" V 4480 6200 50  0000 C CNN
 F 1 "100k" V 4400 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4330 6200 50  0001 C CNN
 F 3 "" H 4400 6200 50  0000 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "ERJ-8ENF1003V" H 0   0   50  0001 C CNN "Part Number"
+F 6 "P100KFCT-ND " H 0   0   50  0001 C CNN "Digikey"
 	1    4400 6200
 	1    0    0    -1  
 $EndComp
@@ -716,6 +755,9 @@ F 0 "R301" V 1680 3650 50  0000 C CNN
 F 1 "2k" V 1600 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 1530 3650 50  0001 C CNN
 F 3 "" H 1600 3650 50  0000 C CNN
+F 4 "P2.00KFCT-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF2001V " H 0   0   50  0001 C CNN "Part Number"
 	1    1600 3650
 	0    1    1    0   
 $EndComp
@@ -748,6 +790,9 @@ F 0 "R307" V 4930 1500 50  0000 C CNN
 F 1 "100k" V 4850 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4780 1500 50  0001 C CNN
 F 3 "" H 4850 1500 50  0000 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "ERJ-8ENF1003V" H 0   0   50  0001 C CNN "Part Number"
+F 6 "P100KFCT-ND " H 0   0   50  0001 C CNN "Digikey"
 	1    4850 1500
 	1    0    0    -1  
 $EndComp
@@ -770,9 +815,12 @@ L Device:R R302
 U 1 1 5B340A8A
 P 2300 3100
 F 0 "R302" V 2380 3100 50  0000 C CNN
-F 1 "132k" V 2300 3100 50  0000 C CNN
+F 1 "130k" V 2300 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2230 3100 50  0001 C CNN
 F 3 "" H 2300 3100 50  0000 C CNN
+F 4 "P130KFCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-8ENF1303V " H 0   0   50  0001 C CNN "Part Number"
 	1    2300 3100
 	1    0    0    -1  
 $EndComp
@@ -1097,9 +1145,12 @@ L frontend_additional_components:LTC6090 U301
 U 1 1 5B66E4A3
 P 2550 3800
 F 0 "U301" H 3641 3828 60  0000 L CNN
-F 1 "LTC6090" H 3641 3722 60  0000 L CNN
+F 1 "LTC6090-5" H 3641 3722 60  0000 L CNN
 F 2 "Package_SO:TI_SO-PowerPAD-8" H 2550 3800 60  0001 C CNN
 F 3 "" H 2550 3800 60  0001 C CNN
+F 4 "LTC6090CS8E-5#PBF-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LTC6090CS8E-5#PBF" H 0   0   50  0001 C CNN "Part Number"
 	1    2550 3800
 	1    0    0    -1  
 $EndComp
@@ -1111,6 +1162,9 @@ F 0 "U303" H 4175 6400 60  0000 C CNN
 F 1 "LTC6090" H 4175 6294 60  0000 C CNN
 F 2 "Package_SO:TI_SO-PowerPAD-8" H 3750 5750 60  0001 C CNN
 F 3 "" H 3750 5750 60  0001 C CNN
+F 4 "LTC6090CS8E#PBF-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LTC6090CS8E#PBF" H 0   0   50  0001 C CNN "Part Number"
 	1    3750 5750
 	-1   0    0    -1  
 $EndComp
@@ -1122,6 +1176,9 @@ F 0 "U302" H 4175 2500 60  0000 C CNN
 F 1 "LTC6090" H 4175 2394 60  0000 C CNN
 F 2 "Package_SO:TI_SO-PowerPAD-8" H 3750 1850 60  0001 C CNN
 F 3 "" H 3750 1850 60  0001 C CNN
+F 4 "LTC6090CS8E#PBF-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LTC6090CS8E#PBF" H 0   0   50  0001 C CNN "Part Number"
 	1    3750 1850
 	-1   0    0    -1  
 $EndComp
