@@ -12,7 +12,7 @@ At the moment, there are the following folders:<br />
 Layout of the frontend predev PCB is done:<br />
 ![alt text](https://raw.githubusercontent.com/tloewner/openSMU-hardware/master/components_predev/frontend/hardware/status_pcb.png "Status Frontend PCB")
 <br/ >
-Completing BOM now and ordering parts.
+Build mostly finished, testing.
 
 ### Documentation
 Will be available at some point, when i get around to it. 
