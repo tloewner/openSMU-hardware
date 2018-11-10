@@ -59,6 +59,10 @@ F 0 "C719" H 5910 5920 50  0000 L CNN
 F 1 "10u" H 5910 5770 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5900 5850 50  0001 C CNN
 F 3 "" H 5900 5850 50  0000 C CNN
+F 4 "1276-6456-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21A106KPFNNNG" H 0   0   50  0001 C CNN "Part Number"
+F 7 "10 V" H 0   0   50  0001 C CNN "Voltage"
 	1    5900 5850
 	0    1    1    0   
 $EndComp
@@ -70,6 +74,10 @@ F 0 "C721" H 6210 6020 50  0000 L CNN
 F 1 "10u" H 6210 5870 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 5950 50  0001 C CNN
 F 3 "" H 6200 5950 50  0000 C CNN
+F 4 "1276-6456-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21A106KPFNNNG" H 0   0   50  0001 C CNN "Part Number"
+F 7 "10 V" H 0   0   50  0001 C CNN "Voltage"
 	1    6200 5950
 	0    1    1    0   
 $EndComp
@@ -92,6 +100,10 @@ F 0 "C718" H 5910 4670 50  0000 L CNN
 F 1 "10u" H 5910 4520 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5900 4600 50  0001 C CNN
 F 3 "" H 5900 4600 50  0000 C CNN
+F 4 "1276-6456-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21A106KPFNNNG" H 0   0   50  0001 C CNN "Part Number"
+F 7 "10 V" H 0   0   50  0001 C CNN "Voltage"
 	1    5900 4600
 	0    1    1    0   
 $EndComp
@@ -103,6 +115,10 @@ F 0 "C720" H 6210 4770 50  0000 L CNN
 F 1 "10u" H 6210 4620 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 4700 50  0001 C CNN
 F 3 "" H 6200 4700 50  0000 C CNN
+F 4 "1276-6456-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL21A106KPFNNNG" H 0   0   50  0001 C CNN "Part Number"
+F 7 "10 V" H 0   0   50  0001 C CNN "Voltage"
 	1    6200 4700
 	0    1    1    0   
 $EndComp
@@ -169,6 +185,10 @@ F 0 "C703" H 1860 9170 50  0000 L CNN
 F 1 "10u" H 1860 9020 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1850 9100 50  0001 C CNN
 F 3 "" H 1850 9100 50  0000 C CNN
+F 4 "490-7202-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "MuRata" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "GRM188R61E106MA73D" H 0   0   50  0001 C CNN "Part Number"
+F 7 "25 V" H 0   0   50  0001 C CNN "Voltage"
 	1    1850 9100
 	-1   0    0    1   
 $EndComp
@@ -188,9 +208,12 @@ L Device:L_Small L701
 U 1 1 5B216C24
 P 1650 8650
 F 0 "L701" H 1680 8690 50  0000 L CNN
-F 1 "L_Small" H 1680 8610 50  0000 L CNN
+F 1 "10u" H 1680 8610 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" H 1650 8650 50  0001 C CNN
 F 3 "" H 1650 8650 50  0000 C CNN
+F 4 "587-2045-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LBR2012T100K" H 0   0   50  0001 C CNN "Part Number"
 	1    1650 8650
 	0    -1   -1   0   
 $EndComp
@@ -202,6 +225,10 @@ F 0 "C705" H 3360 3870 50  0000 L CNN
 F 1 "10u" H 3360 3720 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3350 3800 50  0001 C CNN
 F 3 "" H 3350 3800 50  0000 C CNN
+F 4 "490-7202-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "MuRata" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "GRM188R61E106MA73D" H 0   0   50  0001 C CNN "Part Number"
+F 7 "25 V" H 0   0   50  0001 C CNN "Voltage"
 	1    3350 3800
 	-1   0    0    1   
 $EndComp
@@ -210,9 +237,12 @@ L Device:L_Small L702
 U 1 1 5B217EE7
 P 3150 3550
 F 0 "L702" H 3180 3590 50  0000 L CNN
-F 1 "L_Small" H 3180 3510 50  0000 L CNN
+F 1 "10u" H 3180 3510 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" H 3150 3550 50  0001 C CNN
 F 3 "" H 3150 3550 50  0000 C CNN
+F 4 "587-2045-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LBR2012T100K" H 0   0   50  0001 C CNN "Part Number"
 	1    3150 3550
 	0    -1   -1   0   
 $EndComp
@@ -234,7 +264,7 @@ L Device:R_Small R704
 U 1 1 5B218FA9
 P 3450 8650
 F 0 "R704" H 3480 8670 50  0000 L CNN
-F 1 "R_Small" H 3480 8610 50  0000 L CNN
+F 1 "1k" H 3480 8610 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 8650 50  0001 C CNN
 F 3 "" H 3450 8650 50  0000 C CNN
 	1    3450 8650
@@ -245,7 +275,7 @@ L Device:R_Small R705
 U 1 1 5B218FE2
 P 3450 9050
 F 0 "R705" H 3480 9070 50  0000 L CNN
-F 1 "R_Small" H 3480 9010 50  0000 L CNN
+F 1 "1k" H 3480 9010 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 9050 50  0001 C CNN
 F 3 "" H 3450 9050 50  0000 C CNN
 	1    3450 9050
@@ -262,7 +292,7 @@ F 3 "" H 3750 8850 50  0000 C CNN
 F 4 "X5R" H 0   0   50  0001 C CNN "Dielectric"
 F 5 "490-13970-1-ND " H 0   0   50  0001 C CNN "Digikey"
 F 6 "MuRata" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 	GRM31CR60J227ME11L " H 0   0   50  0001 C CNN "Part Number"
+F 7 "GRM31CR60J227ME11L " H 0   0   50  0001 C CNN "Part Number"
 F 8 "6.3 V" H 0   0   50  0001 C CNN "Voltage"
 	1    3750 8850
 	1    0    0    -1  
@@ -278,7 +308,7 @@ F 3 "" H 3750 9250 50  0000 C CNN
 F 4 "X5R" H 0   0   50  0001 C CNN "Dielectric"
 F 5 "490-13970-1-ND " H 0   0   50  0001 C CNN "Digikey"
 F 6 "MuRata" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 " 	GRM31CR60J227ME11L " H 0   0   50  0001 C CNN "Part Number"
+F 7 "GRM31CR60J227ME11L " H 0   0   50  0001 C CNN "Part Number"
 F 8 "6.3 V" H 0   0   50  0001 C CNN "Voltage"
 	1    3750 9250
 	1    0    0    -1  
@@ -291,6 +321,9 @@ F 0 "U702" H 2600 8800 60  0000 C CNN
 F 1 "ADR4533" H 2700 8250 60  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2500 8650 60  0001 C CNN
 F 3 "" H 2500 8650 60  0001 C CNN
+F 4 "ADR4533ARZ-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Analog Devices" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ADR4533ARZ" H 0   0   50  0001 C CNN "Part Number"
 	1    2500 8650
 	1    0    0    -1  
 $EndComp
@@ -309,7 +342,7 @@ $Comp
 L frontend_additional_components:LTC2055 U707
 U 1 1 5B219D19
 P 4900 8550
-F 0 "U707" H 4950 8750 50  0000 C CNN
+F 0 "U707" H 5050 8750 50  0000 C CNN
 F 1 "LTC2055" H 5050 8350 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 4850 8650 50  0001 C CNN
 F 3 "" H 4950 8750 50  0000 C CNN
@@ -324,7 +357,7 @@ $Comp
 L frontend_additional_components:LTC2055 U707
 U 2 1 5B219DCC
 P 6250 9150
-F 0 "U707" H 6300 9350 50  0000 C CNN
+F 0 "U707" H 6400 9350 50  0000 C CNN
 F 1 "LTC2055" H 6400 8950 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 6200 9250 50  0001 C CNN
 F 3 "" H 6300 9350 50  0000 C CNN
@@ -380,6 +413,11 @@ F 0 "C715" H 5060 8220 50  0000 L CNN
 F 1 "100n" H 5060 8070 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5050 8150 50  0001 C CNN
 F 3 "" H 5050 8150 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    5050 8150
 	0    -1   -1   0   
 $EndComp
@@ -404,6 +442,11 @@ F 0 "C709" H 3560 3870 50  0000 L CNN
 F 1 "100n" H 3560 3720 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3550 3800 50  0001 C CNN
 F 3 "" H 3550 3800 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    3550 3800
 	-1   0    0    1   
 $EndComp
@@ -452,6 +495,10 @@ F 0 "C708" H 3560 2670 50  0000 L CNN
 F 1 "10u" H 3560 2520 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3550 2600 50  0001 C CNN
 F 3 "" H 3550 2600 50  0000 C CNN
+F 4 "490-7202-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "MuRata" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "GRM188R61E106MA73D" H 0   0   50  0001 C CNN "Part Number"
+F 7 "25 V" H 0   0   50  0001 C CNN "Voltage"
 	1    3550 2600
 	1    0    0    -1  
 $EndComp
@@ -463,6 +510,11 @@ F 0 "C711" H 3760 2670 50  0000 L CNN
 F 1 "100n" H 3760 2520 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 2600 50  0001 C CNN
 F 3 "" H 3750 2600 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    3750 2600
 	1    0    0    -1  
 $EndComp
@@ -511,6 +563,10 @@ F 0 "C707" H 3560 1620 50  0000 L CNN
 F 1 "10u" H 3560 1470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3550 1550 50  0001 C CNN
 F 3 "" H 3550 1550 50  0000 C CNN
+F 4 "490-7202-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "MuRata" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "GRM188R61E106MA73D" H 0   0   50  0001 C CNN "Part Number"
+F 7 "25 V" H 0   0   50  0001 C CNN "Voltage"
 	1    3550 1550
 	1    0    0    -1  
 $EndComp
@@ -522,6 +578,11 @@ F 0 "C710" H 3760 1620 50  0000 L CNN
 F 1 "100n" H 3760 1470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 1550 50  0001 C CNN
 F 3 "" H 3750 1550 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    3750 1550
 	1    0    0    -1  
 $EndComp
@@ -544,6 +605,11 @@ F 0 "C702" H 1510 1620 50  0000 L CNN
 F 1 "100n" H 1510 1470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 1550 50  0001 C CNN
 F 3 "" H 1500 1550 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    1500 1550
 	1    0    0    -1  
 $EndComp
@@ -595,6 +661,10 @@ F 0 "C717" H 5360 1620 50  0000 L CNN
 F 1 "10u" H 5360 1470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 1550 50  0001 C CNN
 F 3 "" H 5350 1550 50  0000 C CNN
+F 4 "490-7202-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "MuRata" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "GRM188R61E106MA73D" H 0   0   50  0001 C CNN "Part Number"
+F 7 "25 V" H 0   0   50  0001 C CNN "Voltage"
 	1    5350 1550
 	-1   0    0    -1  
 $EndComp
@@ -606,6 +676,11 @@ F 0 "C716" H 5160 1620 50  0000 L CNN
 F 1 "100n" H 5160 1470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5150 1550 50  0001 C CNN
 F 3 "" H 5150 1550 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    5150 1550
 	-1   0    0    -1  
 $EndComp
@@ -628,6 +703,11 @@ F 0 "C722" H 7260 1620 50  0000 L CNN
 F 1 "100n" H 7260 1470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7250 1550 50  0001 C CNN
 F 3 "" H 7250 1550 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    7250 1550
 	-1   0    0    -1  
 $EndComp
@@ -674,9 +754,12 @@ L Device:R R703
 U 1 1 5B225308
 P 2650 7900
 F 0 "R703" V 2730 7900 50  0000 C CNN
-F 1 "R" V 2650 7900 50  0000 C CNN
+F 1 "143" V 2650 7900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2580 7900 50  0001 C CNN
 F 3 "" H 2650 7900 50  0000 C CNN
+F 4 "541-143FCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CRCW1206143RFKEA" H 0   0   50  0001 C CNN "Part Number"
 	1    2650 7900
 	0    1    1    0   
 $EndComp
@@ -751,6 +834,11 @@ F 0 "C706" H 3360 7020 50  0000 L CNN
 F 1 "100n" H 3360 6870 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3350 6950 50  0001 C CNN
 F 3 "" H 3350 6950 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    3350 6950
 	1    0    0    -1  
 $EndComp
@@ -773,6 +861,9 @@ F 0 "U701" H 1650 7400 50  0000 L CNN
 F 1 "MIC7211" H 1650 7300 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 1650 7150 50  0001 C CNN
 F 3 "" H 1650 7150 50  0000 C CNN
+F 4 "576-1318-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Microchip" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MIC7211YM5-TR" H 0   0   50  0001 C CNN "Part Number"
 	1    1650 7150
 	0    -1   1    0   
 $EndComp
@@ -784,6 +875,10 @@ F 0 "R701" H 1330 7720 50  0000 L CNN
 F 1 "10k" H 1330 7660 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1300 7700 50  0001 C CNN
 F 3 "" H 1300 7700 50  0000 C CNN
+F 4 "311-10.KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "Part Number"
 	1    1300 7700
 	1    0    0    -1  
 $EndComp
@@ -806,6 +901,11 @@ F 0 "C704" H 2160 7120 50  0000 L CNN
 F 1 "100n" H 2160 6970 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2150 7050 50  0001 C CNN
 F 3 "" H 2150 7050 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    2150 7050
 	0    1    1    0   
 $EndComp
@@ -814,7 +914,7 @@ L Device:R_POT_TRIM RV701
 U 1 1 5B227C72
 P 1550 6500
 F 0 "RV701" V 1375 6500 50  0000 C CNN
-F 1 "POT_TRIM" V 1450 6500 50  0000 C CNN
+F 1 "10k" V 1450 6500 50  0000 C CNN
 F 2 "Potentiometer_SMD:Potentiometer_Bourns_3214X_Vertical" H 1550 6500 50  0001 C CNN
 F 3 "" H 1550 6500 50  0000 C CNN
 F 4 "3214X-1-103ECT-ND" H 0   0   50  0001 C CNN "Digikey"
@@ -1218,6 +1318,7 @@ F 0 "W703" H 4050 3670 50  0000 C CNN
 F 1 "TEST_1P" H 4050 3600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4250 3400 50  0001 C CNN
 F 3 "" H 4250 3400 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    4050 3400
 	1    0    0    -1  
 $EndComp
@@ -1229,6 +1330,7 @@ F 0 "W704" H 4350 2470 50  0000 C CNN
 F 1 "TEST_1P" H 4350 2400 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 2200 50  0001 C CNN
 F 3 "" H 4550 2200 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    4350 2200
 	1    0    0    -1  
 $EndComp
@@ -1240,6 +1342,7 @@ F 0 "W705" H 4650 1420 50  0000 C CNN
 F 1 "TEST_1P" H 4650 1350 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4850 1150 50  0001 C CNN
 F 3 "" H 4850 1150 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    4650 1150
 	1    0    0    -1  
 $EndComp
@@ -1251,6 +1354,7 @@ F 0 "W706" H 4950 1420 50  0000 C CNN
 F 1 "TEST_1P" H 4950 1350 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5150 1150 50  0001 C CNN
 F 3 "" H 5150 1150 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    4950 1150
 	1    0    0    -1  
 $EndComp
@@ -1266,6 +1370,7 @@ F 0 "W707" H 6300 8420 50  0000 C CNN
 F 1 "TEST_1P" H 6300 8350 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6500 8150 50  0001 C CNN
 F 3 "" H 6500 8150 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    6300 8150
 	1    0    0    -1  
 $EndComp
@@ -1278,6 +1383,7 @@ F 0 "W702" H 3750 8670 50  0000 C CNN
 F 1 "TEST_1P" H 3750 8600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3950 8400 50  0001 C CNN
 F 3 "" H 3950 8400 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    3750 8400
 	1    0    0    -1  
 $EndComp
@@ -1289,6 +1395,7 @@ F 0 "W701" H 3200 8670 50  0000 C CNN
 F 1 "TEST_1P" H 3200 8600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3400 8400 50  0001 C CNN
 F 3 "" H 3400 8400 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    3200 8400
 	1    0    0    -1  
 $EndComp
@@ -1305,9 +1412,12 @@ L frontend_additional_components:TPS73001 U708
 U 1 1 5B4FD42C
 P 6350 1300
 F 0 "U708" H 6500 800 47  0000 C CNN
-F 1 "TSP73001" H 6350 1450 47  0000 C CNN
+F 1 "TPS73001" H 6350 1450 47  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6350 1300 47  0001 C CNN
 F 3 "" H 6350 1300 47  0001 C CNN
+F 4 "296-27055-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TPS73001DBVR" H 0   0   50  0001 C CNN "Part Number"
 	1    6350 1300
 	-1   0    0    -1  
 $EndComp
@@ -1530,9 +1640,12 @@ L Device:R_Small R708
 U 1 1 5B57E285
 P 5500 9100
 F 0 "R708" H 5559 9146 50  0000 L CNN
-F 1 "R_Small" H 5559 9055 50  0000 L CNN
+F 1 "10k" H 5559 9055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 9100 50  0001 C CNN
 F 3 "~" H 5500 9100 50  0001 C CNN
+F 4 "P10KDBCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "P10KDBCT-ND" H 0   0   50  0001 C CNN "Part Number"
 	1    5500 9100
 	1    0    0    -1  
 $EndComp
@@ -1541,9 +1654,12 @@ L Device:R_Small R709
 U 1 1 5B57E353
 P 5500 9400
 F 0 "R709" H 5559 9446 50  0000 L CNN
-F 1 "R_Small" H 5559 9355 50  0000 L CNN
+F 1 "10k" H 5559 9355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 9400 50  0001 C CNN
 F 3 "~" H 5500 9400 50  0001 C CNN
+F 4 "P10KDBCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "P10KDBCT-ND" H 0   0   50  0001 C CNN "Part Number"
 	1    5500 9400
 	1    0    0    -1  
 $EndComp
@@ -1628,6 +1744,10 @@ F 0 "R603" V 2900 4600 50  0000 C CNN
 F 1 "22" V 2950 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 4850 50  0001 C CNN
 F 3 "~" H 2950 4850 50  0001 C CNN
+F 4 "311-22.0HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0722RL" H 0   0   50  0001 C CNN "Part Number"
+F 7 "VH" H 0   0   50  0001 C CNN "Note"
 	1    2950 4850
 	0    1    1    0   
 $EndComp
@@ -1639,6 +1759,10 @@ F 0 "R604" V 2900 4700 50  0000 C CNN
 F 1 "22" V 2950 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 4950 50  0001 C CNN
 F 3 "~" H 2950 4950 50  0001 C CNN
+F 4 "311-22.0HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0722RL" H 0   0   50  0001 C CNN "Part Number"
+F 7 "VH" H 0   0   50  0001 C CNN "Note"
 	1    2950 4950
 	0    1    1    0   
 $EndComp
@@ -1650,6 +1774,10 @@ F 0 "R605" V 2900 4800 50  0000 C CNN
 F 1 "22" V 2950 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 5050 50  0001 C CNN
 F 3 "~" H 2950 5050 50  0001 C CNN
+F 4 "311-22.0HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0722RL" H 0   0   50  0001 C CNN "Part Number"
+F 7 "VH" H 0   0   50  0001 C CNN "Note"
 	1    2950 5050
 	0    1    1    0   
 $EndComp
@@ -1661,6 +1789,10 @@ F 0 "R606" V 2900 4900 50  0000 C CNN
 F 1 "22" V 2950 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 5150 50  0001 C CNN
 F 3 "~" H 2950 5150 50  0001 C CNN
+F 4 "311-22.0HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0722RL" H 0   0   50  0001 C CNN "Part Number"
+F 7 "VH" H 0   0   50  0001 C CNN "Note"
 	1    2950 5150
 	0    1    1    0   
 $EndComp
@@ -1672,6 +1804,10 @@ F 0 "R607" V 3000 5550 50  0000 C CNN
 F 1 "22" V 2950 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 5350 50  0001 C CNN
 F 3 "~" H 2950 5350 50  0001 C CNN
+F 4 "311-22.0HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0722RL" H 0   0   50  0001 C CNN "Part Number"
+F 7 "VH" H 0   0   50  0001 C CNN "Note"
 	1    2950 5350
 	0    1    1    0   
 $EndComp
@@ -1683,6 +1819,10 @@ F 0 "R608" V 3000 5650 50  0000 C CNN
 F 1 "22" V 2950 5450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 5450 50  0001 C CNN
 F 3 "~" H 2950 5450 50  0001 C CNN
+F 4 "311-22.0HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0722RL" H 0   0   50  0001 C CNN "Part Number"
+F 7 "VH" H 0   0   50  0001 C CNN "Note"
 	1    2950 5450
 	0    1    1    0   
 $EndComp
@@ -1694,6 +1834,10 @@ F 0 "R609" V 3000 5750 50  0000 C CNN
 F 1 "22" V 2950 5550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 5550 50  0001 C CNN
 F 3 "~" H 2950 5550 50  0001 C CNN
+F 4 "311-22.0HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-0722RL" H 0   0   50  0001 C CNN "Part Number"
+F 7 "VH" H 0   0   50  0001 C CNN "Note"
 	1    2950 5550
 	0    1    1    0   
 $EndComp

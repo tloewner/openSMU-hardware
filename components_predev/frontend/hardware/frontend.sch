@@ -19,9 +19,12 @@ L Connector_Generic:Conn_01x04 P104
 U 1 1 5B065E90
 P 10350 1900
 F 0 "P104" H 10350 2150 50  0000 C CNN
-F 1 "CONN_01X04" V 10450 1900 50  0000 C CNN
+F 1 "1757268" V 10450 1900 50  0000 C CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 10350 1900 50  0001 C CNN
 F 3 "" H 10350 1900 50  0000 C CNN
+F 4 "277-1108-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Phoenix" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1757268" H 0   0   50  0001 C CNN "Part Number"
 	1    10350 1900
 	1    0    0    1   
 $EndComp
@@ -30,9 +33,12 @@ L Device:R R101
 U 1 1 5B067CDC
 P 9400 5300
 F 0 "R101" V 9480 5300 50  0000 C CNN
-F 1 "R" V 9400 5300 50  0000 C CNN
+F 1 "200m" V 9400 5300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 9330 5300 50  0001 C CNN
 F 3 "" H 9400 5300 50  0000 C CNN
+F 4 "WSLC-.20CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "WSL1206R2000FEA" H 0   0   50  0001 C CNN "Part Number"
 	1    9400 5300
 	-1   0    0    -1  
 $EndComp
@@ -52,9 +58,12 @@ L Connector_Generic:Conn_01x04 P102
 U 1 1 5B06FF0C
 P 900 6200
 F 0 "P102" H 900 6450 50  0000 C CNN
-F 1 "CONN_01X04" V 1000 6200 50  0000 C CNN
+F 1 "1757268" V 1000 6200 50  0000 C CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 900 6200 50  0001 C CNN
 F 3 "" H 900 6200 50  0000 C CNN
+F 4 "277-1108-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Phoenix" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "1757268" H 0   0   50  0001 C CNN "Part Number"
 	1    900  6200
 	-1   0    0    -1  
 $EndComp
@@ -93,9 +102,12 @@ L Device:R R102
 U 1 1 5B0BFCF9
 P 10500 5300
 F 0 "R102" V 10580 5300 50  0000 C CNN
-F 1 "R" V 10500 5300 50  0000 C CNN
+F 1 "~" V 10500 5300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 10430 5300 50  0001 C CNN
 F 3 "" H 10500 5300 50  0000 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Digikey"
+F 5 "" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "" H 0   0   50  0001 C CNN "Part Number"
 	1    10500 5300
 	-1   0    0    -1  
 $EndComp
@@ -122,6 +134,9 @@ F 0 "K101" H 9300 4375 60  0000 C CNN
 F 1 "PE014005" H 9475 3825 60  0000 C CNN
 F 2 "frontend_additional-footprints:PE014005" H 13350 5700 60  0001 C CNN
 F 3 "" H 13350 5700 60  0001 C CNN
+F 4 "PB353-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "PE014005" H 0   0   50  0001 C CNN "Part Number"
 	1    9550 4100
 	0    -1   1    0   
 $EndComp
@@ -187,9 +202,13 @@ L Connector_Generic:Conn_01x02 P103
 U 1 1 5B1544A1
 P 900 6800
 F 0 "P103" H 900 6950 50  0000 C CNN
-F 1 "CONN_01X02" V 1000 6800 50  0000 C CNN
+F 1 "1757242" V 1000 6800 50  0000 C CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 900 6800 50  0001 C CNN
 F 3 "" H 900 6800 50  0000 C CNN
+F 4 "?" H 900 6800 50  0001 C CNN "Note"
+F 5 "277-1106-ND" H 0   0   50  0001 C CNN "Digikey"
+F 6 "Phoenix" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "1757242" H 0   0   50  0001 C CNN "Part Number"
 	1    900  6800
 	-1   0    0    -1  
 $EndComp
@@ -332,6 +351,10 @@ F 0 "R103" V 10680 4250 50  0000 C CNN
 F 1 "68k" V 10600 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10530 4250 50  0001 C CNN
 F 3 "" H 10600 4250 50  0000 C CNN
+F 4 "311-68.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-0768KL" H 0   0   50  0001 C CNN "Part Number"
 	1    10600 4250
 	1    0    0    -1  
 $EndComp

@@ -108,6 +108,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 8200 4300 50  0001 C CNN
 F 3 "" H 8000 4200 50  0000 C CNN
 F 4 "Diodes" H 8000 4200 60  0001 C CNN "Manufacturer"
 F 5 "MMBT5401-7-F" H 8000 4200 60  0001 C CNN "Part Number"
+F 6 "MMBT5401-FDICT-ND" H 0   0   50  0001 C CNN "Digikey"
 	1    8000 4200
 	-1   0    0    1   
 $EndComp
@@ -121,6 +122,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 7800 5250 50  0001 C CNN
 F 3 "" H 7600 5150 50  0000 C CNN
 F 4 "Diodes" H 7600 5150 60  0001 C CNN "Manufacturer"
 F 5 "MMBT5401-7-F" H 7600 5150 60  0001 C CNN "Part Number"
+F 6 "MMBT5401-FDICT-ND" H 0   0   50  0001 C CNN "Digikey"
 	1    7600 5150
 	1    0    0    1   
 $EndComp
@@ -502,6 +504,9 @@ F 0 "K301" H 9250 3975 60  0000 C CNN
 F 1 "PE014005" H 9425 3425 60  0000 C CNN
 F 2 "frontend_additional-footprints:PE014005" H 13300 5300 60  0001 C CNN
 F 3 "" H 13300 5300 60  0001 C CNN
+F 4 "PB353-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "TE Connectivity" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "PE014005" H 0   0   50  0001 C CNN "Part Number"
 	1    9500 3700
 	0    -1   -1   0   
 $EndComp
@@ -571,6 +576,10 @@ F 0 "R318" H 9580 5170 50  0000 L CNN
 F 1 "68k" H 9580 5110 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9550 5150 50  0001 C CNN
 F 3 "" H 9550 5150 50  0000 C CNN
+F 4 "311-68.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-0768KL" H 0   0   50  0001 C CNN "Part Number"
 	1    9550 5150
 	1    0    0    -1  
 $EndComp
@@ -855,9 +864,12 @@ L Device:LED D301
 U 1 1 5B343774
 P 2450 7300
 F 0 "D301" H 2450 7400 50  0000 C CNN
-F 1 "LED" H 2450 7200 50  0000 C CNN
+F 1 "RED" H 2450 7200 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2450 7300 50  0001 C CNN
 F 3 "" H 2450 7300 50  0000 C CNN
+F 4 "SML-D12V1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Rohm" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "SML-D12V1WT86" H 0   0   50  0001 C CNN "Part Number"
 	1    2450 7300
 	-1   0    0    1   
 $EndComp
@@ -866,9 +878,12 @@ L Device:R R303
 U 1 1 5B343809
 P 2900 7300
 F 0 "R303" V 2980 7300 50  0000 C CNN
-F 1 "R" V 2900 7300 50  0000 C CNN
+F 1 "2" V 2900 7300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 7300 50  0001 C CNN
 F 3 "" H 2900 7300 50  0000 C CNN
+F 4 "RL16R2.0FCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Susumu" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "RL1632R-2R00-F" H 0   0   50  0001 C CNN "Part Number"
 	1    2900 7300
 	0    1    1    0   
 $EndComp
@@ -958,6 +973,7 @@ F 0 "W303" H 4800 3920 50  0000 C CNN
 F 1 "TEST_1P" H 4800 3850 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5000 3650 50  0001 C CNN
 F 3 "" H 5000 3650 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    4800 3650
 	1    0    0    -1  
 $EndComp
@@ -972,6 +988,7 @@ F 0 "W302" H 2800 3170 50  0000 C CNN
 F 1 "TEST_1P" H 2800 3100 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3000 2900 50  0001 C CNN
 F 3 "" H 3000 2900 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    2800 2900
 	1    0    0    -1  
 $EndComp
@@ -983,6 +1000,7 @@ F 0 "W301" H 1700 3170 50  0000 C CNN
 F 1 "TEST_1P" H 1700 3100 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1900 2900 50  0001 C CNN
 F 3 "" H 1900 2900 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    1700 2900
 	1    0    0    -1  
 $EndComp
@@ -995,6 +1013,7 @@ F 0 "W305" H 8850 3770 50  0000 C CNN
 F 1 "TEST_1P" H 8850 3700 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9050 3500 50  0001 C CNN
 F 3 "" H 9050 3500 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    8850 3500
 	1    0    0    -1  
 $EndComp
@@ -1009,6 +1028,7 @@ F 0 "W304" H 6650 2220 50  0000 C CNN
 F 1 "TEST_1P" H 6650 2150 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6850 1950 50  0001 C CNN
 F 3 "" H 6850 1950 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    6650 1950
 	1    0    0    -1  
 $EndComp

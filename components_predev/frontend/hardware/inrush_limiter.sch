@@ -88,6 +88,10 @@ F 0 "R207" V 4480 2750 50  0000 C CNN
 F 1 "68k" V 4400 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 2750 50  0001 C CNN
 F 3 "" H 4400 2750 50  0000 C CNN
+F 4 "311-68.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-0768KL" H 0   0   50  0001 C CNN "Part Number"
 	1    4400 2750
 	0    1    1    0   
 $EndComp
@@ -159,6 +163,10 @@ F 0 "R208" V 4480 4850 50  0000 C CNN
 F 1 "68k" V 4400 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 4850 50  0001 C CNN
 F 3 "" H 4400 4850 50  0000 C CNN
+F 4 "311-68.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-0768KL" H 0   0   50  0001 C CNN "Part Number"
 	1    4400 4850
 	0    1    1    0   
 $EndComp
@@ -214,6 +222,10 @@ F 0 "R203" V 4180 1750 50  0000 C CNN
 F 1 "220" V 4100 1750 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4030 1750 50  0001 C CNN
 F 3 "" H 4100 1750 50  0000 C CNN
+F 4 "311-220HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-07220RL" H 0   0   50  0001 C CNN "Part Number"
 	1    4100 1750
 	0    1    1    0   
 $EndComp
@@ -235,6 +247,10 @@ F 0 "R204" V 4180 3800 50  0000 C CNN
 F 1 "220" V 4100 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4030 3800 50  0001 C CNN
 F 3 "" H 4100 3800 50  0000 C CNN
+F 4 "311-220HRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-07220RL" H 0   0   50  0001 C CNN "Part Number"
 	1    4100 3800
 	0    1    1    0   
 $EndComp
@@ -292,6 +308,10 @@ F 0 "R205" V 4380 3150 50  0000 C CNN
 F 1 "68k" V 4300 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 3150 50  0001 C CNN
 F 3 "" H 4300 3150 50  0000 C CNN
+F 4 "311-68.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-0768KL" H 0   0   50  0001 C CNN "Part Number"
 	1    4300 3150
 	0    1    1    0   
 $EndComp
@@ -303,6 +323,10 @@ F 0 "R206" V 4380 5250 50  0000 C CNN
 F 1 "68k" V 4300 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 5250 50  0001 C CNN
 F 3 "" H 4300 5250 50  0000 C CNN
+F 4 "311-68.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "RC0603FR-0768KL" H 0   0   50  0001 C CNN "Part Number"
 	1    4300 5250
 	0    1    1    0   
 $EndComp
@@ -341,6 +365,7 @@ F 0 "W201" H 7500 2270 50  0000 C CNN
 F 1 "TEST_1P" H 7500 2200 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7700 2000 50  0001 C CNN
 F 3 "" H 7700 2000 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    7500 2000
 	1    0    0    -1  
 $EndComp
@@ -352,6 +377,7 @@ F 0 "W202" H 7500 4320 50  0000 C CNN
 F 1 "TEST_1P" H 7500 4250 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7700 4050 50  0001 C CNN
 F 3 "" H 7700 4050 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    7500 4050
 	1    0    0    -1  
 $EndComp
@@ -585,6 +611,9 @@ F 0 "Q702" V 4350 4250 50  0000 C CNN
 F 1 "FDMS86255" V 4050 4600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4300 4175 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/FD/FDMS86255.pdf" V 4100 4250 50  0001 L CNN
+F 4 "FDMS86255CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Fairchild" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "FDMS86255" H 0   0   50  0001 C CNN "Part Number"
 	1    4100 4250
 	0    1    -1   0   
 $EndComp
@@ -596,6 +625,9 @@ F 0 "Q703" V 4350 2200 50  0000 C CNN
 F 1 "FQB12P20" V 4050 2500 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 4300 2300 50  0001 C CNN
 F 3 "~" H 4100 2200 50  0001 C CNN
+F 4 "FQB12P20TMCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "OnSemi" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "FQB12P20TM" H 0   0   50  0001 C CNN "Part Number"
 	1    4100 2200
 	0    1    -1   0   
 $EndComp

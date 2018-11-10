@@ -24,6 +24,9 @@ F 0 "L401" V 1500 1325 50  0000 C CNN
 F 1 "Ferrite_Bead" V 1800 1300 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" V 1580 1300 50  0001 C CNN
 F 3 "" H 1650 1300 50  0000 C CNN
+F 4 "732-1591-1-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Würth" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "742792609" H 0   0   50  0001 C CNN "Part Number"
 	1    1650 1300
 	0    1    1    0   
 $EndComp
@@ -74,6 +77,9 @@ F 0 "P401" H 3450 1250 50  0000 C CNN
 F 1 "CONN_01X02" V 3550 1100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 1100 50  0001 C CNN
 F 3 "" H 3450 1100 50  0000 C CNN
+F 4 "952-2262-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Harwin" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "M20-9990246" H 0   0   50  0001 C CNN "Part Number"
 	1    3450 1100
 	1    0    0    -1  
 $EndComp
@@ -87,6 +93,9 @@ F 0 "U403" H 6550 800 60  0000 C CNN
 F 1 "AOZ1284" H 6400 1750 60  0000 C CNN
 F 2 "Package_SO:TI_SO-PowerPAD-8" H 6400 1300 60  0001 C CNN
 F 3 "" H 6400 1300 60  0001 C CNN
+F 4 "785-1689-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Alpha & Omega" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "AOZ1284PI" H 0   0   50  0001 C CNN "Part Number"
 	1    6400 1300
 	1    0    0    -1  
 $EndComp
@@ -97,9 +106,12 @@ L Device:L L405
 U 1 1 5B3A0E7B
 P 7950 1300
 F 0 "L405" V 7900 1300 50  0000 C CNN
-F 1 "L" V 8025 1300 50  0000 C CNN
+F 1 "330u" V 8025 1300 50  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns-SRN6028" H 7950 1300 50  0001 C CNN
 F 3 "" H 7950 1300 50  0000 C CNN
+F 4 "240-2744-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Laird" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TYS6045331M-10" H 0   0   50  0001 C CNN "Part Number"
 	1    7950 1300
 	0    -1   -1   0   
 $EndComp
@@ -231,6 +243,9 @@ F 0 "P404" H 9300 1250 50  0000 C CNN
 F 1 "CONN_01X02" V 9400 1100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9300 1100 50  0001 C CNN
 F 3 "" H 9300 1100 50  0000 C CNN
+F 4 "952-2262-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Harwin" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "M20-9990246" H 0   0   50  0001 C CNN "Part Number"
 	1    9300 1100
 	0    -1   -1   0   
 $EndComp
@@ -271,6 +286,11 @@ F 0 "C425" H 8760 1670 50  0000 L CNN
 F 1 "100n" H 8760 1520 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8750 1600 50  0001 C CNN
 F 3 "" H 8750 1600 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    8750 1600
 	1    0    0    -1  
 $EndComp
@@ -302,7 +322,7 @@ L Device:C_Small C415
 U 1 1 5B3A2300
 P 5700 1750
 F 0 "C415" H 5710 1820 50  0000 L CNN
-F 1 "C_Small" H 5710 1670 50  0000 L CNN
+F 1 "4n7" H 5710 1670 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5700 1750 50  0001 C CNN
 F 3 "" H 5700 1750 50  0000 C CNN
 	1    5700 1750
@@ -363,7 +383,7 @@ L Device:R_Small R412
 U 1 1 5B3A257F
 P 5150 1750
 F 0 "R412" H 5180 1770 50  0000 L CNN
-F 1 "R_Small" H 5180 1710 50  0000 L CNN
+F 1 "62k" H 5180 1710 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5150 1750 50  0001 C CNN
 F 3 "" H 5150 1750 50  0000 C CNN
 	1    5150 1750
@@ -387,6 +407,11 @@ F 0 "C412" H 4760 1520 50  0000 L CNN
 F 1 "100n" H 4760 1370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 1450 50  0001 C CNN
 F 3 "" H 4750 1450 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    4750 1450
 	1    0    0    -1  
 $EndComp
@@ -425,6 +450,11 @@ F 0 "C408" H 3260 1570 50  0000 L CNN
 F 1 "100n" H 3260 1420 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3250 1500 50  0001 C CNN
 F 3 "" H 3250 1500 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    3250 1500
 	1    0    0    -1  
 $EndComp
@@ -452,6 +482,9 @@ F 0 "U401" H 3250 2600 60  0000 C CNN
 F 1 "AOZ1284" H 3100 3550 60  0000 C CNN
 F 2 "Package_SO:TI_SO-PowerPAD-8" H 3100 3100 60  0001 C CNN
 F 3 "" H 3100 3100 60  0001 C CNN
+F 4 "785-1689-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Alpha & Omega" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "AOZ1284PI" H 0   0   50  0001 C CNN "Part Number"
 	1    3100 3100
 	1    0    0    -1  
 $EndComp
@@ -462,9 +495,12 @@ L Device:L L403
 U 1 1 5B3A4E20
 P 4650 3100
 F 0 "L403" V 4600 3100 50  0000 C CNN
-F 1 "L" V 4725 3100 50  0000 C CNN
+F 1 "330u" V 4725 3100 50  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns-SRN6028" H 4650 3100 50  0001 C CNN
 F 3 "" H 4650 3100 50  0000 C CNN
+F 4 "240-2744-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Laird" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "TYS6045331M-10" H 0   0   50  0001 C CNN "Part Number"
 	1    4650 3100
 	0    -1   -1   0   
 $EndComp
@@ -596,6 +632,9 @@ F 0 "P402" H 8800 3050 50  0000 C CNN
 F 1 "CONN_01X02" V 8900 2900 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 2900 50  0001 C CNN
 F 3 "" H 8800 2900 50  0000 C CNN
+F 4 "952-2262-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Harwin" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "M20-9990246" H 0   0   50  0001 C CNN "Part Number"
 	1    8800 2900
 	0    -1   -1   0   
 $EndComp
@@ -619,6 +658,11 @@ F 0 "C417" H 5860 3470 50  0000 L CNN
 F 1 "100n" H 5860 3320 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5850 3400 50  0001 C CNN
 F 3 "" H 5850 3400 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    5850 3400
 	1    0    0    -1  
 $EndComp
@@ -650,7 +694,7 @@ L Device:C_Small C406
 U 1 1 5B3A4E84
 P 2400 3550
 F 0 "C406" H 2410 3620 50  0000 L CNN
-F 1 "C_Small" H 2410 3470 50  0000 L CNN
+F 1 "4n7" H 2410 3470 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2400 3550 50  0001 C CNN
 F 3 "" H 2400 3550 50  0000 C CNN
 	1    2400 3550
@@ -737,6 +781,11 @@ F 0 "C403" H 1460 3320 50  0000 L CNN
 F 1 "100n" H 1460 3170 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 3250 50  0001 C CNN
 F 3 "" H 1450 3250 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    1450 3250
 	1    0    0    -1  
 $EndComp
@@ -771,9 +820,12 @@ L Device:LED D401
 U 1 1 5B3A5CFC
 P 1200 6500
 F 0 "D401" H 1200 6600 50  0000 C CNN
-F 1 "LED" H 1200 6400 50  0000 C CNN
+F 1 "GREEN" H 1200 6400 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 1200 6500 50  0001 C CNN
 F 3 "" H 1200 6500 50  0000 C CNN
+F 4 "SML-D12M1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Rohm" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "SML-D12M1WT86" H 0   0   50  0001 C CNN "Part Number"
 	1    1200 6500
 	0    -1   -1   0   
 $EndComp
@@ -782,9 +834,12 @@ L Device:LED D402
 U 1 1 5B3A5D9F
 P 1600 6500
 F 0 "D402" H 1600 6600 50  0000 C CNN
-F 1 "LED" H 1600 6400 50  0000 C CNN
+F 1 "GREEN" H 1600 6400 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 1600 6500 50  0001 C CNN
 F 3 "" H 1600 6500 50  0000 C CNN
+F 4 "SML-D12M1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Rohm" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "SML-D12M1WT86" H 0   0   50  0001 C CNN "Part Number"
 	1    1600 6500
 	0    -1   -1   0   
 $EndComp
@@ -793,9 +848,12 @@ L Device:LED D403
 U 1 1 5B3A5E10
 P 2000 6500
 F 0 "D403" H 2000 6600 50  0000 C CNN
-F 1 "LED" H 2000 6400 50  0000 C CNN
+F 1 "GREEN" H 2000 6400 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2000 6500 50  0001 C CNN
 F 3 "" H 2000 6500 50  0000 C CNN
+F 4 "SML-D12M1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Rohm" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "SML-D12M1WT86" H 0   0   50  0001 C CNN "Part Number"
 	1    2000 6500
 	0    -1   -1   0   
 $EndComp
@@ -804,9 +862,12 @@ L Device:LED D404
 U 1 1 5B3A5E75
 P 2400 6500
 F 0 "D404" H 2400 6600 50  0000 C CNN
-F 1 "LED" H 2400 6400 50  0000 C CNN
+F 1 "GREEN" H 2400 6400 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2400 6500 50  0001 C CNN
 F 3 "" H 2400 6500 50  0000 C CNN
+F 4 "SML-D12M1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Rohm" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "SML-D12M1WT86" H 0   0   50  0001 C CNN "Part Number"
 	1    2400 6500
 	0    1    1    0   
 $EndComp
@@ -815,7 +876,7 @@ L Device:R_Small R401
 U 1 1 5B3A6170
 P 1200 6950
 F 0 "R401" H 1230 6970 50  0000 L CNN
-F 1 "R_Small" H 1230 6910 50  0000 L CNN
+F 1 "990" H 1230 6910 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1200 6950 50  0001 C CNN
 F 3 "" H 1200 6950 50  0000 C CNN
 	1    1200 6950
@@ -826,7 +887,7 @@ L Device:R_Small R402
 U 1 1 5B3A629F
 P 1600 6950
 F 0 "R402" H 1630 6970 50  0000 L CNN
-F 1 "R_Small" H 1630 6910 50  0000 L CNN
+F 1 "120" H 1630 6910 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1600 6950 50  0001 C CNN
 F 3 "" H 1600 6950 50  0000 C CNN
 	1    1600 6950
@@ -837,7 +898,7 @@ L Device:R_Small R404
 U 1 1 5B3A6333
 P 2000 6950
 F 0 "R404" H 2030 6970 50  0000 L CNN
-F 1 "R_Small" H 2030 6910 50  0000 L CNN
+F 1 "290" H 2030 6910 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2000 6950 50  0001 C CNN
 F 3 "" H 2000 6950 50  0000 C CNN
 	1    2000 6950
@@ -848,7 +909,7 @@ L Device:R_Small R406
 U 1 1 5B3A63CA
 P 2400 6950
 F 0 "R406" H 2430 6970 50  0000 L CNN
-F 1 "R_Small" H 2430 6910 50  0000 L CNN
+F 1 "290" H 2430 6910 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 6950 50  0001 C CNN
 F 3 "" H 2400 6950 50  0000 C CNN
 	1    2400 6950
@@ -947,6 +1008,9 @@ F 0 "U404" H 7550 2700 60  0000 C CNN
 F 1 "MIC39100" H 7300 3300 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 7300 3100 60  0001 C CNN
 F 3 "" H 7300 3100 60  0001 C CNN
+F 4 "576-1173-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Microchip" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MIC39100-5.0WS" H 0   0   50  0001 C CNN "Part Number"
 	1    7300 3100
 	1    0    0    -1  
 $EndComp
@@ -993,6 +1057,11 @@ F 0 "C421" H 8210 3470 50  0000 L CNN
 F 1 "100n" H 8210 3320 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8200 3400 50  0001 C CNN
 F 3 "" H 8200 3400 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    8200 3400
 	1    0    0    -1  
 $EndComp
@@ -1044,6 +1113,9 @@ F 0 "U402" H 3250 4600 60  0000 C CNN
 F 1 "LT1617" H 3350 4700 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3100 5100 60  0001 C CNN
 F 3 "" H 3100 5100 60  0001 C CNN
+F 4 "LT1617ES5#TRMPBFCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Linear Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "LT1617ES5#TRMPBF" H 0   0   50  0001 C CNN "Part Number"
 	1    3100 5050
 	1    0    0    -1  
 $EndComp
@@ -1063,6 +1135,11 @@ F 0 "C404" H 1460 4970 50  0000 L CNN
 F 1 "100n" H 1460 4820 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1450 4900 50  0001 C CNN
 F 3 "" H 1450 4900 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    1450 4900
 	1    0    0    -1  
 $EndComp
@@ -1116,9 +1193,12 @@ L Device:L_Small L402
 U 1 1 5B3ACCB1
 P 3100 4500
 F 0 "L402" H 3130 4540 50  0000 L CNN
-F 1 "L_Small" H 3130 4460 50  0000 L CNN
+F 1 "22u" H 3130 4460 50  0000 L CNN
 F 2 "Inductor_SMD:L_Bourns-SRN6028" H 3100 4500 50  0001 C CNN
 F 3 "" H 3100 4500 50  0000 C CNN
+F 4 "587-2103-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "NR6028T220M" H 0   0   50  0001 C CNN "Part Number"
 	1    3100 4500
 	0    -1   -1   0   
 $EndComp
@@ -1127,9 +1207,13 @@ L Device:C_Small C410
 U 1 1 5B3ACDA2
 P 4100 4500
 F 0 "C410" H 4110 4570 50  0000 L CNN
-F 1 "C_Small" H 4110 4420 50  0000 L CNN
+F 1 "4u7" H 4110 4420 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 4500 50  0001 C CNN
 F 3 "" H 4100 4500 50  0000 C CNN
+F 4 "1276-1784-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "CL10A475KO8NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 7 "16 V" H 0   0   50  0001 C CNN "Voltage"
 	1    4100 4500
 	0    1    1    0   
 $EndComp
@@ -1138,9 +1222,12 @@ L Device:L_Small L404
 U 1 1 5B3ACE45
 P 4650 4500
 F 0 "L404" H 4680 4540 50  0000 L CNN
-F 1 "L_Small" H 4680 4460 50  0000 L CNN
+F 1 "22u" H 4680 4460 50  0000 L CNN
 F 2 "Inductor_SMD:L_Bourns-SRN6028" H 4650 4500 50  0001 C CNN
 F 3 "" H 4650 4500 50  0000 C CNN
+F 4 "587-2103-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "NR6028T220M" H 0   0   50  0001 C CNN "Part Number"
 	1    4650 4500
 	0    -1   -1   0   
 $EndComp
@@ -1290,6 +1377,11 @@ F 0 "C416" H 5760 4820 50  0000 L CNN
 F 1 "100n" H 5760 4670 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5750 4750 50  0001 C CNN
 F 3 "" H 5750 4750 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    5750 4750
 	1    0    0    -1  
 $EndComp
@@ -1323,6 +1415,9 @@ F 0 "U405" H 7400 4150 60  0000 C CNN
 F 1 "MC79M05" H 7300 4700 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7300 4500 60  0001 C CNN
 F 3 "" H 7300 4500 60  0001 C CNN
+F 4 "MC79M05CDTRKGOSCT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "OnSemi" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "MC79M05CDTRKG " H 0   0   50  0001 C CNN "Part Number"
 	1    7300 4500
 	1    0    0    -1  
 $EndComp
@@ -1335,6 +1430,9 @@ F 0 "P403" H 8800 4450 50  0000 C CNN
 F 1 "CONN_01X02" V 8900 4300 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 4300 50  0001 C CNN
 F 3 "" H 8800 4300 50  0000 C CNN
+F 4 "952-2262-ND " H 0   0   50  0001 C CNN "Digikey"
+F 5 "Harwin" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "M20-9990246" H 0   0   50  0001 C CNN "Part Number"
 	1    8800 4300
 	0    -1   -1   0   
 $EndComp
@@ -1370,6 +1468,11 @@ F 0 "C422" H 7950 4700 50  0000 L CNN
 F 1 "100n" H 7950 4900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8200 4800 50  0001 C CNN
 F 3 "" H 8200 4800 50  0000 C CNN
+F 4 "1276-1005-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "VH" H 0   0   50  0001 C CNN "Note"
+F 7 "CL10B104K08NNNC" H 0   0   50  0001 C CNN "Part Number"
+F 8 "16V" H 0   0   50  0001 C CNN "Voltage"
 	1    8200 4800
 	1    0    0    -1  
 $EndComp
@@ -1458,7 +1561,7 @@ L Device:R_Small R407
 U 1 1 5B3A6C85
 P 4200 6400
 F 0 "R407" H 4230 6420 50  0000 L CNN
-F 1 "R_Small" H 4230 6360 50  0000 L CNN
+F 1 "1k5" H 4230 6360 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4200 6400 50  0001 C CNN
 F 3 "" H 4200 6400 50  0000 C CNN
 	1    4200 6400
@@ -1486,13 +1589,12 @@ L Device:D_Zener D406
 U 1 1 5B3A7024
 P 4200 6900
 F 0 "D406" H 4200 7000 50  0000 C CNN
-F 1 "D_Zener" H 4200 6800 50  0000 C CNN
+F 1 "UDZ4V7B-7" H 4200 6800 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323" H 4200 6900 50  0001 C CNN
 F 3 "" H 4200 6900 50  0000 C CNN
-F 4 "863-MM3Z4V7ST1G" H 0   0   50  0001 C CNN "Digikey"
-F 5 "OnSemi" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "MM3Z4V7ST1GOSCT-ND" H 0   0   50  0001 C CNN "Mouser"
-F 7 "MM3Z4V7ST1G" H 0   0   50  0001 C CNN "Part Number"
+F 4 "UDZ4V7B-7DICT-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "Diodes" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "UDZ4V7B-7" H 4600 7400 50  0001 C CNN "Part Number"
 	1    4200 6900
 	0    1    1    0   
 $EndComp
@@ -1518,6 +1620,7 @@ F 0 "W401" H 2900 1070 50  0000 C CNN
 F 1 "TEST_1P" H 2900 1000 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3100 800 50  0001 C CNN
 F 3 "" H 3100 800 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    2900 800 
 	1    0    0    -1  
 $EndComp
@@ -1529,6 +1632,7 @@ F 0 "W402" H 10150 1520 50  0000 C CNN
 F 1 "TEST_1P" H 10400 1400 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10350 1250 50  0001 C CNN
 F 3 "" H 10350 1250 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    10150 1250
 	1    0    0    -1  
 $EndComp
@@ -1540,6 +1644,7 @@ F 0 "W403" H 10150 3320 50  0000 C CNN
 F 1 "TEST_1P" H 10400 3200 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10350 3050 50  0001 C CNN
 F 3 "" H 10350 3050 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    10150 3050
 	1    0    0    -1  
 $EndComp
@@ -1551,6 +1656,7 @@ F 0 "W404" H 10150 4720 50  0000 C CNN
 F 1 "TEST_1P" H 10400 4600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10350 4450 50  0001 C CNN
 F 3 "" H 10350 4450 50  0000 C CNN
+F 4 "NB" H 0   0   50  0001 C CNN "Note"
 	1    10150 4450
 	1    0    0    -1  
 $EndComp
@@ -1760,4 +1866,12 @@ Wire Wire Line
 Connection ~ 1800 7150
 Wire Wire Line
 	1800 7150 2000 7150
+Text Notes 5800 3000 0    50   ~ 0
+6V
+Text Notes 5750 4400 0    50   ~ 0
+-6V
+Text Notes 1400 7600 0    50   ~ 0
+all LEDs 10 mA each
+Text Notes 6800 1900 0    50   ~ 0
+f_sw = 746 kHz
 $EndSCHEMATC
